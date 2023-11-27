@@ -1,10 +1,13 @@
 import s from './home.module.css';
+import Title from "./title/title";
 
 function Home() {
-  
     return (
-      <p className={s.test}> Home</p>
+      <Title
+          title="Заголовок секции 1"
+          content="Основная информация секции 1"
+          button="Кнопка секции 1"
+          />
     );
-  }
-  
-  export default Home;
+}
+export default Home;
