@@ -1,5 +1,4 @@
-import s from './home.module.css';
-import Title from "./title/title";
+import Title from "./Title/title";
 import FilmOfDay from "./FilmOfDay/filmOfDay";
 
 function Home() {
@@ -9,7 +8,12 @@ function Home() {
                 title="Заголовок секции 1"
                 content="Основная информация секции 1"
                 button="Кнопка секции 1"/>
-            <FilmOfDay/>
+            <FilmOfDay
+                title="Название фильма"
+                releaseDate="2021-09-01"
+                episodeCount={10}
+                trailerUrl="https://www.youtube.com/watch?v=abc123"
+            />
         </div>
     );
 }

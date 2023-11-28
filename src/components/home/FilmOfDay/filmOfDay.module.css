@@ -1,14 +1,18 @@
 .movie_info__section {
-    background-color: #333;
+    background-color: var(--main-black);
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--main-white);
     border-radius: 5px;
-    color: #f2f2f2;
+    color: var(--main-white);
 }
 
 .movie_info__container {
-    max-width: 1200px;
-    margin: 0 auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--containerPadding);
+    padding-right: var(--containerPadding);
+    max-width: var(--maxWidth);
 }
 
 .movie_info__section h2 {

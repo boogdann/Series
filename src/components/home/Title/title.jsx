@@ -25,8 +25,8 @@ const Title = (props) => {
                         {props.content}
                     </p>
                     <Button variant="outlined">{props.button}</Button>
+                    <img className={s.section__img} src="../../../../assets/img/right_title_logo.jpg" alt="Изображение" />
                 </div>
-                <img src="../../../../assets/img/right_title_logo.jpg" alt="Изображение" />
             </ThemeProvider>
         </div>
     );
