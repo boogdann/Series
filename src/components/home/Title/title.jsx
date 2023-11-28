@@ -15,17 +15,20 @@ const theme = createTheme({
 
 const Title = (props) => {
     return (
-        <div className={s.section}>
+        <div className={s.section__container}>
             <ThemeProvider theme={theme}>
-                <div className={s.section__container}>
-                    <h2 className={s.section__title}>
-                        {props.title}
-                    </h2>
-                    <p className={s.section__content}>
-                        {props.content}
-                    </p>
-                    <Button variant="outlined">{props.button}</Button>
-                    <img className={s.section__img} src="../../../../assets/img/right_title_logo.jpg" alt="Изображение" />
+                <div className={s.section__data}>
+                    <div>
+                        <h2 className={s.section__title}>
+                            {props.title}
+                        </h2>
+                        <p className={s.section__text}>
+                            {props.content}
+                        </p>
+                        <Button variant="outlined">{props.button}</Button>
+                    </div>
+                    <img className={s.section__img} src="../../../../assets/img/right_title_logo.jpg"
+                         alt="Изображение"/>
                 </div>
             </ThemeProvider>
         </div>
