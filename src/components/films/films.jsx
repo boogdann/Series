@@ -1,8 +1,13 @@
+import * as React from 'react';
+import Link from '@mui/material/Link';
+import Header from '../utils/header/header';
+
 function Films() {
-  
     return (
-      <>Films</>
+      <>
+        <Header />
+      </>
     );
   }
-  
-  export default Films;
+
+export default Films;

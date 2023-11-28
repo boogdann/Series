@@ -1,4 +1,6 @@
 /*global variables*/
+.App {}
+
 :root {
   --main-red: #FF553E;
   --main-yellow: #FEC901;
@@ -71,4 +73,15 @@ a {
 ul {
   list-style-type: none;
   padding: 0;
+}
+
+@media  (max-width: 1200px){
+}
+
+@media (max-width: 900px){
+}
+@media (max-width: 600px) {
+  :root {
+    --containerPadding: 30px;
+  }
 }

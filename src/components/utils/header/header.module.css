@@ -1,0 +1,9 @@
+.container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--containerPadding);
+    padding-right: var(--containerPadding);
+    max-width: var(--maxWidth);
+    background-color: red;
+}
