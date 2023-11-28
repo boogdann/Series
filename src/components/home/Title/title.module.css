@@ -1,0 +1,38 @@
+.section {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #333;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.section__title {
+    color: #f2f2f2;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.section__container {
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.image-left {
+
+}
+.section__content {
+    color: #666;
+    font-size: 16px;
+}
+
+.section__button {
+    background-color: #f2f2f2;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
