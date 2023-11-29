@@ -5,5 +5,49 @@
     padding-left: var(--containerPadding);
     padding-right: var(--containerPadding);
     max-width: var(--maxWidth);
-    background-color: red;
+}
+
+.header_box {
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger_button_container {
+    position: relative;
+    height: 28px;
+    width: 35px;
+}
+
+.burger_button {
+    transition-duration: .3s;
+    color: white;
+    z-index: 11;
+    display: block;
+    position: absolute;
+    width: 35px;
+    height: 28px;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+}
+.burger_button:before {
+    content: "";
+    position: absolute;
+    top: 6.5px;
+    left: 0px;
+    width: 100%;
+    border-top: 5px solid;
+}
+
+.header_container {
+    height: var(--header-size);
+    justify-content: space-around;
+    font-family: 'IBM_Plex_Mono';
+}
+
+.menu_btn {
+    font-family: 'IBM_Plex_Mono';
+    font-size: var(--medium);
+    margin-left: 20px;
+    color: black;
 }

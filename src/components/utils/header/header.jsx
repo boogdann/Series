@@ -6,12 +6,13 @@ function Header(props) {
       <>
         <header>
             <div class={s.container}> 
-                <div>
-                    <span className={"burger-button"}></span>
-                    <div className={"d-flex header_container"}>
-                        <NavLink to={"/Home"}>Home</NavLink>
-                        <NavLink to={"/films"}>Serials</NavLink>
+                <div className={"d-flex " + s.header_box}>
+                    <div className={s.burger_button_container}><span className={s.burger_button}></span></div>
+                    <div className={"d-flex " + s.header_container}>
+                        <NavLink className={s.menu_btn} to={"/Home"}>Home</NavLink>
+                        <NavLink className={s.menu_btn} to={"/films"}>Serials</NavLink>
                     </div>
+                    <button>tmp</button>
                 </div>
             </div>
         </header>
