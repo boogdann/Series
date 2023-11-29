@@ -1,11 +1,13 @@
 import './App.css';
-import {Outlet} from "react-router-dom";
+import {NavLink, Outlet} from "react-router-dom";
 import Home from "./components/home/home";
 
 function App() {
     return (
         <div>
-            <Home/>
+            <div>Links:</div>
+            <NavLink to="home">Home </NavLink>
+            <NavLink to="films">Films</NavLink>
             <Outlet/>
         </div>
     );

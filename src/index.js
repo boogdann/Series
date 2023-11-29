@@ -4,8 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter, Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
-import { Home } from '@mui/icons-material';
 import Films from './components/films/films';
+import Home from './components/home/home';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
