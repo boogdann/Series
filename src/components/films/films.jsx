@@ -7,7 +7,7 @@ function Films() {
       <div className={s.Films}>
         <Header />
         <div>
-          films
+          Content
         </div>
         
       </div>
