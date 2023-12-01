@@ -1,0 +1,32 @@
+.movie_info__container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--maxWidth);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px var(--containerPadding);
+    border: 1px solid var(--main-white);
+    border-radius: 5px;
+    background-color: var(--main-black);
+}
+
+.movie_info__section h2 {
+    color: var(--main-white);
+    font-size: var(--medium);
+    margin-bottom: 10px;
+}
+
+.movie_info__section p {
+    font-size: var(--small_2);
+    margin-bottom: 5px;
+}
+
+
+.section__img {
+    justify-content: space-between;
+}
+
+.section__youtube {
+    box-shadow: none;
+}

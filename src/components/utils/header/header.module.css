@@ -1,0 +1,80 @@
+.container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--containerPadding);
+    padding-right: var(--containerPadding);
+    max-width: var(--maxWidth);
+}
+
+.header_box {
+    height: var(--header-size);
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger_button_container {
+    position: relative;
+    height: 28px;
+    width: 35px;
+}
+
+.burger_button {
+    transition-duration: .3s;
+    color: white;
+    z-index: 11;
+    display: none;
+    position: absolute;
+    width: 35px;
+    height: 28px;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+}
+.burger_button:before {
+    content: "";
+    position: absolute;
+    top: 6.5px;
+    left: 0px;
+    width: 100%;
+    border-top: 5px solid;
+}
+
+.header_container {
+    justify-content: space-around;
+    font-family: 'IBM_Plex_Mono';
+}
+
+.menu_btn {
+    font-family: 'IBM_Plex_Mono';
+    font-size: var(--medium);
+    margin-left: 20px;
+    color: black;
+}
+
+@media (max-width: 600px){
+    .burger_button {
+        display: block;
+    }
+    .header_container {
+        width: 100vw;
+        height: 100vh;
+        z-index: 10;
+        position: fixed;
+        padding-top: 80px;
+        background-color: var(--main-red);
+        top: 0;
+        left: -100vw;
+        transition-duration: .3s;
+        display: flex;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        align-items: flex-start !important
+    }
+    .showen {
+        position: fixed;
+        left: 0px;
+        transition: .3s;
+    }
+    
+}
