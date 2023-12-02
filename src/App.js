@@ -1,5 +1,7 @@
 import './App.css';
 import {NavLink, Outlet} from "react-router-dom";
+
+import s from "./App.css";
 import Home from "./components/home/home";
 
 function App() {

@@ -1,6 +1,10 @@
 import Title from "./Title/title";
 import FilmOfDay from "./FilmOfDay/filmOfDay";
 import Slider from "../controls/Slider/Slider";
+import Header from "../utils/header/header";
+
+import s from "./home.module.css";
+import About from "./About/about";
 
 function Home() {
     const images = [
@@ -10,13 +14,14 @@ function Home() {
     ];
 
     const text = [
-        "инфа 1",
+        "инфа 1111111111111111111 11111111111 111111111111 1111111111 1111111111 1 11  11111111 1111111111 11111111111 11111111111111111 11111111",
         "инфа 2",
         "инфа 3",
     ]
 
     return (
-        <div>
+        <div className={s.home__app}>
+            <Header/>
             <Title
                 title="Заголовок секции 1"
                 content="Основная информация секции 1"
@@ -30,6 +35,7 @@ function Home() {
             <Slider
                 images={images}
                 text={text}/>
+            <About/>
         </div>
     );
 }

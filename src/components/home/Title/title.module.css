@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;
-    border: 1px solid var(--main-white);
+    border: 1px solid var(--second-black);
     border-radius: 5px;
     background-color: var(--main-black);
 }

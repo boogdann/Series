@@ -1,0 +1,19 @@
+.about__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--main-black);
+    border: 1px solid var(--second-black);
+    border-radius: 5px;
+}
+
+.about__devs {
+    display: flex;
+}
+
+.about__main-text {
+    text-align: center;
+    color: var(--main-white);
+    font-size: var(--medium);
+    padding: 20px;
+}

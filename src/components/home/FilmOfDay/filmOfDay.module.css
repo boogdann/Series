@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     padding: 20px var(--containerPadding);
-    border: 1px solid var(--main-white);
+    border: 1px solid var(--second-black);
     border-radius: 5px;
     background-color: var(--main-black);
 }

@@ -1,0 +1,20 @@
+.people__container {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.people__image {
+    margin: auto;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.people__text {
+    text-align: center;
+    color: var(--second-black);
+    font-size: var(--small);
+    padding: 5px;
+}
