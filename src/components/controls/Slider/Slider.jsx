@@ -14,7 +14,7 @@ const theme = createTheme({
     },
 });
 
-function Slider({images, text}) {
+function Slider({images, text, names, links}) {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const handlePrevClick = () => {
         if (currentImageIndex === 0) {
@@ -34,18 +34,28 @@ function Slider({images, text}) {
         setCurrentImageIndex((prevIndex) => prevIndex + 1);
     };
 
+    const handleLinkClick = (link) => {
+        window.open(link, '_blank');
+    };
+
     return (
         <div className={s.slider__container}>
-            <ThemeProvider theme={theme}>
-                <Button variant="outlined" onClick={handlePrevClick}>Назад</Button>
-                <div className={s.slider__block}>
-                    <Card className={s.slider__image}>
-                        <img src={images[currentImageIndex]} alt="Изображение"/>
-                    </Card>
-                    <p className={s.slider__text}>{text[currentImageIndex]}</p>
-                </div>
-                <Button variant="outlined" onClick={handleNextClick}>Вперед</Button>
-            </ThemeProvider>
+            <h2 className={s.slider__title}>Сериалы</h2>
+            <div className={s.slider__block}>
+                <ThemeProvider theme={theme}>
+                    <Button variant="outlined" onClick={handlePrevClick}>Назад</Button>
+                    <div className={s.slider__data}>
+                        <Card className={s.slider__image}>
+                            <img onClick={ () => handleLinkClick(links[currentImageIndex])}
+                                 src={images[currentImageIndex]} alt="Изображение"
+                            />
+                        </Card>
+                        <p className={s.slider__name}>{names[currentImageIndex]}</p>
+                        <p className={s.slider__text}>{text[currentImageIndex]}</p>
+                    </div>
+                    <Button variant="outlined" onClick={handleNextClick}>Вперед</Button>
+                </ThemeProvider>
+            </div>
         </div>
     );
 }

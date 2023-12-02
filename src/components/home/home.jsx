@@ -20,6 +20,18 @@ function Home() {
         "инфа 3",
     ]
 
+    const names = [
+        "Иванов Иван Иванович",
+        "Петров Петр Петрович",
+        "Сидоров Сидор Сидорович",
+    ]
+
+    const links = [
+        "https://www.youtube.com/",
+        "https://www.youtube.com/",
+        "https://www.youtube.com/",
+    ]
+
     return (
         <div>
             <Header/>
@@ -37,7 +49,9 @@ function Home() {
                 trailerID="CRNwi9DKSWA"/>
             <Slider
                 images={images}
-                text={text}/>
+                text={text}
+                names={names}
+                links={links}/>
             <About/>
         </div>
     );
