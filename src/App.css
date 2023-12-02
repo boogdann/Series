@@ -8,6 +8,7 @@
   --main-purple: #A717FF;
   --main-ping: #FE90E9;
 
+  --block-black: #222;
   --main-black: #333;
   --main-white: #f2f2f2;
 
@@ -23,6 +24,8 @@
   --large_2: 84px;
   --maxWidth: 2000px;
   --containerPadding: 60px;
+
+  --big-containerPadding: 100px;
 
   --header-size: 80px;
   --footer-size: 160px

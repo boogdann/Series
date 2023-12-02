@@ -5,6 +5,7 @@ import Header from "../utils/header/header";
 
 import s from "./home.module.css";
 import About from "./About/about";
+import Trailer from "./Trailer/trailer";
 
 function Home() {
     const images = [
@@ -20,7 +21,7 @@ function Home() {
     ]
 
     return (
-        <div className={s.home__app}>
+        <div>
             <Header/>
             <Title
                 title="Заголовок секции 1"
@@ -30,8 +31,10 @@ function Home() {
                 title="Название фильма"
                 releaseDate="2021-09-01"
                 episodeCount={10}
-                trailerID="CRNwi9DKSWA"
-                button="Больше инфы"/>
+                button="Больше инфы"
+                description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. "/>
+            <Trailer
+                trailerID="CRNwi9DKSWA"/>
             <Slider
                 images={images}
                 text={text}/>

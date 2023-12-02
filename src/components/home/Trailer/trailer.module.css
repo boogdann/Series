@@ -1,0 +1,32 @@
+.trailer__container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--maxWidth);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px var(--big-containerPadding);
+    background-color: var(--main-black);
+}
+
+.trailer__title {
+    z-index: 999;
+    color: var(--main-white);
+    font-size: var(--large);
+    margin-bottom: -25px;
+}
+
+.trailer__block {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--block-black);
+    padding-left: var(--containerPadding);
+}
+
+.trailer__youtube {
+
+}

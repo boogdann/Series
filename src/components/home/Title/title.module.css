@@ -8,8 +8,6 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;
-    border: 1px solid var(--second-black);
-    border-radius: 5px;
     background-color: var(--main-black);
 }
 
@@ -19,6 +17,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 
 .section__title {
     color: var(--main-white);
