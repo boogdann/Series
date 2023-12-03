@@ -1,0 +1,26 @@
+.people__container {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.people__image {
+    margin: auto;
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+}
+
+.people__image:hover {
+    transition: 0.35s;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.people__text {
+    text-align: center;
+    color: var(--second-black);
+    font-size: var(--small);
+    padding: 20px;
+}

@@ -1,6 +1,11 @@
 import Title from "./Title/title";
 import FilmOfDay from "./FilmOfDay/filmOfDay";
 import Slider from "../controls/Slider/Slider";
+import Header from "../utils/header/header";
+
+import s from "./home.module.css";
+import About from "./About/about";
+import Trailer from "./Trailer/trailer";
 
 function Home() {
     const images = [
@@ -10,13 +15,26 @@ function Home() {
     ];
 
     const text = [
-        "инфа 1",
+        "инфа 1111111111111111111 11111111111 111111111111 1111111111 1111111111 1 11  11111111 1111111111 11111111111 11111111111111111 11111111",
         "инфа 2",
         "инфа 3",
     ]
 
+    const names = [
+        "Иванов Иван Иванович",
+        "Петров Петр Петрович",
+        "Сидоров Сидор Сидорович",
+    ]
+
+    const links = [
+        "https://www.youtube.com/",
+        "https://www.youtube.com/",
+        "https://www.youtube.com/",
+    ]
+
     return (
         <div>
+            <Header/>
             <Title
                 title="Заголовок секции 1"
                 content="Основная информация секции 1"
@@ -25,11 +43,16 @@ function Home() {
                 title="Название фильма"
                 releaseDate="2021-09-01"
                 episodeCount={10}
-                trailerID="CRNwi9DKSWA"
-                button="Больше инфы"/>
+                button="Больше инфы"
+                description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. "/>
+            <Trailer
+                trailerID="CRNwi9DKSWA"/>
             <Slider
                 images={images}
-                text={text}/>
+                text={text}
+                names={names}
+                links={links}/>
+            <About/>
         </div>
     );
 }

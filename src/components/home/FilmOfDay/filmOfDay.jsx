@@ -16,22 +16,27 @@ const theme = createTheme({
 const FilmOfDay = (props) => {
     return (
         <div className={s.movie_info__container}>
-            <ThemeProvider theme={theme}>
-                <div className={s.movie_info__section}>
-                    <h2>{props.title}</h2>
-                    <p>Дата выхода: {props.releaseDate}</p>
-                    <p>Количество серий: {props.episodeCount}</p>
+            <h2 className={s.movie_name}>{props.title}</h2>
+            <div className={s.movie_info__block}>
+                <ThemeProvider theme={theme}>
+                    <div className={s.movie_info__section} >
+                        <div className={s.movie}>
+                            <div className={s.movie_text}>
+                                <p>Дата выхода: {props.releaseDate}</p>
+                                <p>Количество серий: {props.episodeCount}</p>
 
-                    <p>Ещё что-нибудь</p>
+                                <p>Краткое описание:</p>
+                                <p className={s.movie_description}>{props.description}</p>
+                                <Button className={s.movie_button} variant="outlined">{props.button}</Button>
+                            </div>
 
-                    <p>Трейлер:</p>
-                    <YouTube className={s.section__youtube} videoId={props.trailerID}/>
+                            <img className={s.movie__img} src="https://aquamarin-school.ru/uploads/blog/uroki/vinni-puh-kartinka/vinni-puh-kartinka.jpg"
+                                 alt="Изображение"/>
+                        </div>
+                    </div>
+                </ThemeProvider>
+            </div>
 
-                    <Button variant="outlined">{props.button}</Button>
-                </div>
-                <img className={s.section__img} src="../../../../assets/img/right_title_logo.jpg"
-                     alt="Изображение"/>
-            </ThemeProvider>
         </div>
     );
 };
