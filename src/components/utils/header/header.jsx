@@ -1,12 +1,21 @@
-import { NavLink } from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import s from './header.module.css';
-import { useState } from 'react';
+import {useState} from 'react';
+import Button from "@mui/material/Button";
+import {ButtonGroup, makeStyles} from "@mui/material";
+import {useTranslation, Trans} from "react-i18next";
 
 function Header(props) {
+    const {t, i18n} = useTranslation();
 
     const LINKS_CLASS_NAME = "d-flex " + s.header_container + " "
     let [isShowen, setIsShowen] = useState(false)
     let [links_class_name, setClassName] = useState(LINKS_CLASS_NAME)
+
+    const lngs = {
+        ru: {nativeName: 'Русский'},
+        en: {nativeName: 'English'}
+    }
 
     function burger_click() {
         setIsShowen(!isShowen)
@@ -18,24 +27,32 @@ function Header(props) {
     }
 
     return (
-      <>
-        <header>
-            <div class={s.container}> 
-                <div className={"d-flex " + s.header_box}>
-                    <div className={s.burger_button_container}>
-                      <span onClick={burger_click} className={s.burger_button}></span>
+        <>
+            <header>
+                <div className={s.container}>
+                    <div className={"d-flex " + s.header_box}>
+                        <div className={s.burger_button_container}>
+                            <span onClick={burger_click} className={s.burger_button}></span>
+                        </div>
+                        <div className={links_class_name}>
+                            <NavLink className={s.menu_btn} to={"/Home"}>{t('header.home')}</NavLink>
+                            <NavLink className={s.menu_btn} to={"/films"}>{t('header.films')}</NavLink>
+                            <NavLink className={s.menu_btn} to={"/news"}>{t('header.news')}</NavLink>
+                        </div>
+                        <div>
+                            {Object.keys(lngs).map((lng) => (
+                                <Button variant="outlined" type="submit" key={lng}
+                                        onClick={() => i18n.changeLanguage(lng)}
+                                        disabled={i18n.resolvedLanguage === lng}>
+                                    {lngs[lng].nativeName}
+                                </Button>
+                            ))}
+                        </div>
                     </div>
-                    <div className={links_class_name}>
-                        <NavLink className={s.menu_btn} to={"/Home"}>Home</NavLink>
-                        <NavLink className={s.menu_btn} to={"/films"}>Serials</NavLink>
-                        <NavLink className={s.menu_btn} to={"/news"}>News</NavLink>
-                    </div>
-                    <button>Button</button>
                 </div>
-            </div>
-        </header>
-      </>
+            </header>
+        </>
     );
-  }
-  
+}
+
 export default Header;

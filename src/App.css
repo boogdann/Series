@@ -16,6 +16,7 @@
 }
 
 :root {
+  --very-small: 10px;
   --small: 14px;
   --small_2: 18px;
   --medium: 27px;

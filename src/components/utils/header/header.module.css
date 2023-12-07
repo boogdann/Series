@@ -14,6 +14,10 @@
     align-items: center;
 }
 
+.lang_btn {
+    font-size: var(--very-small);
+}
+
 .burger_button_container {
     position: relative;
     height: 28px;
