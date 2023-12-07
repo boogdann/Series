@@ -5,6 +5,7 @@
     padding-left: var(--containerPadding);
     padding-right: var(--containerPadding);
     max-width: var(--maxWidth);
+    z-index: 10000;
 }
 
 .header_box {

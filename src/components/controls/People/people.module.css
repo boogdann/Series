@@ -24,3 +24,20 @@
     font-size: var(--small);
     padding: 20px;
 }
+
+@media (max-width: 600px) {
+    .people__image {
+        height: 75px;
+        width: 75px;
+        padding: 5px;
+    }
+    .people__text {
+        padding: 5px;
+    }
+    .people__container {
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+}

@@ -11,7 +11,8 @@
 }
 
 .about__devs {
-    display: flex;
+    grid-template-columns: repeat(4, 0fr);
+    display: grid;
 }
 
 .about__title {
@@ -26,7 +27,14 @@
     padding-bottom: 30px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     background-color: var(--block-black);
-    padding-left: var(--containerPadding);
+}
+
+@media (max-width: 600px) {
+    .about__devs {
+        align-items: center;
+        grid-template-columns: repeat(2, 0fr);
+    }
 }

@@ -32,8 +32,6 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    width: 500px;
-    height: 650px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -63,5 +61,10 @@
     color: var(--second-black);
     font-size: var(--small_2);
     padding-bottom: 20px;
-    /*padding-top: 10px;*/
+}
+
+@media (max-width: 600px) {
+    .slider__image {
+        transform: scale(0.4);
+    }
 }

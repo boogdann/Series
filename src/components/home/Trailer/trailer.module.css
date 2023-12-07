@@ -18,15 +18,33 @@
 }
 
 .trailer__block {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 10px;
     width: 100%;
     display: flex;
     justify-content: center;
     background-color: var(--block-black);
-    padding-left: var(--containerPadding);
+}
+
+.trailer__content {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .trailer__youtube {
+}
 
+@media (max-width: 600px) {
+    .trailer__container {
+        padding: 10px var(--containerPadding);
+    }
+
+
+
+    .trailer__youtube {
+        justify-content: center;
+        transform: scale(0.4);
+    }
 }

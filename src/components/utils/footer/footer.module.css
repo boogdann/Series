@@ -40,3 +40,10 @@
 .footer__links {
     margin-right: 0;
 }
+
+@media (max-width: 600px) {
+    .footer__btn {
+        font-size: var(--small);
+        padding-bottom: 2px;
+    }
+}
