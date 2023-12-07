@@ -1,5 +1,6 @@
 import React from 'react';
 import People from "../../controls/People/people";
+import { Grid, Col } from 'react-grid-system';
 
 import s from "./about.module.css";
 

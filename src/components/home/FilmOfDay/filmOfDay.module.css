@@ -1,4 +1,5 @@
 .movie_info__container {
+    width: 100%;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -28,6 +29,7 @@ p {
 .movie_info__block {
     background-color: var(--block-black);
     padding-left: var(--containerPadding);
+    padding-bottom: 10px;
 }
 
 .movie_info__section h2 {
@@ -59,4 +61,11 @@ p {
     margin-top: 10px;
     font-size: var(--small_2);
     padding: 10px;
+}
+
+@media (max-width: 600px) {
+    .movie__img {
+        height: 0;
+        width: 0;
+    }
 }

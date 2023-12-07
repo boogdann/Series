@@ -1,0 +1,11 @@
+{
+  "header": {
+    "text": "Hello World!",
+    "films": "Serials",
+    "news": "News",
+    "home": "Home"
+  },
+  "trailer": {
+    "title": "Trailer"
+  }
+}

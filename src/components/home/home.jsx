@@ -6,6 +6,7 @@ import Header from "../utils/header/header";
 import s from "./home.module.css";
 import About from "./About/about";
 import Trailer from "./Trailer/trailer";
+import Footer from "../utils/footer/footer";
 
 function Home() {
     const images = [
@@ -53,6 +54,7 @@ function Home() {
                 names={names}
                 links={links}/>
             <About/>
+            <Footer/>
         </div>
     );
 }

@@ -5,6 +5,7 @@
     padding-left: var(--containerPadding);
     padding-right: var(--containerPadding);
     max-width: var(--maxWidth);
+    z-index: 10000;
 }
 
 .header_box {
@@ -12,6 +13,10 @@
     position: relative;
     justify-content: space-between;
     align-items: center;
+}
+
+.lang_btn {
+    font-size: var(--very-small);
 }
 
 .burger_button_container {
