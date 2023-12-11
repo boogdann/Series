@@ -37,25 +37,29 @@ function Home() {
         <div>
             <Header/>
             <Title
-                title="Заголовок секции 1"
-                content="Основная информация секции 1"
-                button="Кнопка секции 1"/>
+                title="Куда я попал?"
+                content=""
+                button="Узнать подробнее"/>
+
             <FilmOfDay
-                title="Название фильма"
-                releaseDate="2021-09-01"
-                episodeCount={10}
-                button="Больше инфы"
-                description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. "/>
+                title="Сериал дня"
+                releaseDate="24 сентября 2007 года"
+                episodeCount={12}
+                button="Звучит интересно"/>
+
             <Trailer
-                trailerID="CRNwi9DKSWA"/>
-            <Slider
-                images={images}
-                text={text}
-                names={names}
-                links={links}/>
+                trailerID="QdBZY2fkU-0"/>
+
             <About/>
             <Footer/>
         </div>
     );
 }
 export default Home;
+
+
+//             <Slider
+//                 images={images}
+//                 text={text}
+//                 names={names}
+//                 links={links}/>

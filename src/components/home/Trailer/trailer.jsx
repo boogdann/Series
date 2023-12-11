@@ -11,8 +11,11 @@ const Trailer = (props) => {
         <div className={s.trailer__container}>
             <h2 className={s.trailer__title}>{t('trailer.title')}</h2>
             <div className={s.trailer__block}>
-                <CardContent className={s.trailer__content}>
-                    <YouTube className={s.trailer__youtube} videoId={props.trailerID}/>
+                <CardContent className={s.custom__content}>
+                    <YouTube
+                        className={s.trailer__youtube}
+                        videoId={props.trailerID}
+                    />
                 </CardContent>
             </div>
         </div>

@@ -2,14 +2,13 @@ import {NavLink} from 'react-router-dom';
 import s from './header.module.css';
 import {useState} from 'react';
 import Button from "@mui/material/Button";
-import {ButtonGroup, makeStyles} from "@mui/material";
 import {useTranslation, Trans} from "react-i18next";
 
 function Header(props) {
     const {t, i18n} = useTranslation();
 
     const LINKS_CLASS_NAME = "d-flex " + s.header_container + " "
-    let [isShowen, setIsShowen] = useState(false)
+    let [isShowen, setIsShowen] = useState(true)
     let [links_class_name, setClassName] = useState(LINKS_CLASS_NAME)
 
     const lngs = {
@@ -43,7 +42,14 @@ function Header(props) {
                             {Object.keys(lngs).map((lng) => (
                                 <Button variant="outlined" type="submit" key={lng}
                                         onClick={() => i18n.changeLanguage(lng)}
-                                        disabled={i18n.resolvedLanguage === lng}>
+                                        disabled={i18n.resolvedLanguage === lng}
+                                        style={{
+                                            color: 'white',
+                                            backgroundColor: i18n.resolvedLanguage === lng ? 'green' : 'transparent',
+                                            marginLeft: '5px',
+                                            maxWidth: '75px',
+                                            fontSize: '12px',
+                                        }}>
                                     {lngs[lng].nativeName}
                                 </Button>
                             ))}

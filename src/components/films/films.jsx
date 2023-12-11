@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Header from '../utils/header/header';
 import s from './films.module.css'
+import Footer from "../utils/footer/footer";
 
 function Films() {
     return (
@@ -9,7 +10,7 @@ function Films() {
         <div>
           Content
         </div>
-        
+        <Footer />
       </div>
     );
   }

@@ -6,6 +6,7 @@
     padding-right: var(--containerPadding);
     max-width: var(--maxWidth);
     z-index: 10000;
+    background-color: #444;
 }
 
 .header_box {
@@ -23,6 +24,7 @@
     position: relative;
     height: 28px;
     width: 35px;
+    display: none;
 }
 
 .burger_button {
@@ -47,18 +49,22 @@
 
 .header_container {
     justify-content: space-around;
-    font-family: 'IBM_Plex_Mono';
 }
 
 .menu_btn {
-    font-family: 'IBM_Plex_Mono';
-    font-size: var(--medium);
+    font-weight: 500;
+    font-size: calc(var(--medium) * 0.75);
     margin-left: 20px;
-    color: black;
+    color: white;
+
 }
+
 
 @media (max-width: 600px){
     .burger_button {
+        display: block;
+    }
+    .burger_button_container {
         display: block;
     }
     .header_container {
@@ -66,15 +72,19 @@
         height: 100vh;
         z-index: 10;
         position: fixed;
-        padding-top: 80px;
-        background-color: var(--main-red);
+        padding-top: 100px;
+        background-color: var(--main-black);
         top: 0;
         left: -100vw;
+        padding-left: 20px;
         transition-duration: .3s;
         display: flex;
         flex-direction: column !important;
         justify-content: flex-start !important;
         align-items: flex-start !important
+    }
+    .menu_btn {
+        margin-bottom: 5px;
     }
     .showen {
         position: fixed;
