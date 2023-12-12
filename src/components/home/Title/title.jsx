@@ -34,7 +34,9 @@ const Title = (props) => {
                                 <p>Погрузитесь в мир длительных эпических приключений и наслаждайтесь просмотром!</p>
                             </p>
                         }
-                            {props.button === "" ? <></> : <Button variant="outlined">{props.button}</Button>}
+                        { !props.image ? <></> : <img src={props.image}></img> }
+
+                        { props.button === "" ? <></> : <Button variant="outlined">{props.button}</Button>}
 
                     </div>
                 </div>

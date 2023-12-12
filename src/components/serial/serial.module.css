@@ -1,0 +1,72 @@
+.home__app {
+    margin: auto;
+    width: 1400px;
+}
+
+.container {
+    position: relative;
+    margin: 20px auto;
+    max-width: var(--maxWidth);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 var(--big-containerPadding);
+    background-color: var(--main-black);
+}
+
+.wrapper {
+    color: #777777;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--block-black);
+    align-items: center;
+}
+
+.SerialInfo {
+    max-width: 500px;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.item {
+    font-weight: bold;
+    color: #999;
+}
+
+.Map {
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.Slider {
+    margin-top: 20px;
+    max-width: 450px;
+    width: 95%;
+}
+
+.map_text {
+    color: #777777;
+    margin-bottom: 6px;
+    text-align: center;
+    font-weight: bold;
+    color: #999;
+}
+
+@media (max-width: 900px) {
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .SerialInfo {
+        text-align: center;
+    }
+
+    .Map {
+        margin-right: 0;
+    }
+}
+

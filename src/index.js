@@ -5,15 +5,17 @@ import App from './App';
 import {HashRouter, Route, RouterProvider, createBrowserRouter, createRoutesFromElements} from 'react-router-dom';
 import Films from './components/films/films';
 import Home from './components/home/home';
-
+import Serial from "./components/serial/serial";
 import './i18n'
+
 
 const router = createBrowserRouter(
     createRoutesFromElements(
         <Route>
-            <Route path='' element={<App/>}/>
+            <Route path='' element={<Home/>}/>
             <Route path='home' element={<Home/>}/>
             <Route path='films' element={<Films/>}/>
+            <Route path='serial/:id' element={<Serial/>}/>
         </Route>
     )
 );
