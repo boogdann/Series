@@ -12,7 +12,8 @@
     "main_info": "Basic information: ",
     "period_label": "Release period: ",
     "sizon_count": "Number of seasons: ",
-    "timeline": "Timeline"
+    "timeline": "Timeline",
+    "photos": "Photos"
   },
   "slider" : {
     "search": "Search: ",
