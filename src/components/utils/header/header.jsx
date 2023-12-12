@@ -36,7 +36,7 @@ function Header(props) {
                         <div className={links_class_name}>
                             <NavLink className={s.menu_btn} to={"/Home"}>{t('header.home')}</NavLink>
                             <NavLink className={s.menu_btn} to={"/films"}>{t('header.films')}</NavLink>
-                            <NavLink className={s.menu_btn} to={"/news"}>{t('header.news')}</NavLink>
+                            <NavLink className={s.menu_btn} to={"https://github.com/boogdann/Series"}>{t('header.developers')}</NavLink>
                         </div>
                         <div>
                             {Object.keys(lngs).map((lng) => (
