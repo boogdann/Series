@@ -29,6 +29,7 @@
     "react-yandex-maps": "^4.6.0",
     "react-youtube": "^10.1.0",
     "styled-components": "^6.1.1",
+    "vertical-timeline-component-for-react": "^1.0.7",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

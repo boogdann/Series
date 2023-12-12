@@ -23,6 +23,22 @@
     align-items: center;
 }
 
+.TimeLineWrapper {
+    color: #777777;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--block-black);
+    align-items: center;
+}
+
+.TimeLineHeader {
+    color: #BBB;
+    font-size: var(--large);
+    margin-top: -20px;
+}
+
 .SerialInfo {
     max-width: 500px;
     margin-right: 30px;
@@ -33,6 +49,12 @@
 .item {
     font-weight: bold;
     color: #999;
+}
+
+.Hitem {
+    font-weight: bold;
+    color: #999;
+    font-size: var(--medium);
 }
 
 .Map {

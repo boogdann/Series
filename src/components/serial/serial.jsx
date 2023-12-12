@@ -14,6 +14,7 @@ import {amber, purple} from "@mui/material/colors";
 import {Carousel} from 'react-responsive-carousel';
 import {NavLink} from "react-router-dom";
 import Button from "@mui/material/Button";
+import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 
 const apiKey = 'YOUR_API_KEY';
 
@@ -41,6 +42,27 @@ function Serial() {
             </div>
         )
     })
+
+    let TimelineItems = data[id - 1].Timeline.map((e) => {
+        return (
+            <TimelineItem
+                key="001"
+                dateText={e.Time}
+                dateInnerStyle={{ background: '#76bb7f', color: '#111' }}
+                bodyContainerStyle={{
+                    background: '#888',
+                    color: '#111',
+                    padding: '20px',
+                    boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
+                }}
+            >
+                <p>
+                    {e.Text}
+                </p>
+            </TimelineItem>
+        )
+    })
+
     return (
         <div>
             <Header/>
@@ -57,7 +79,7 @@ function Serial() {
             <div className={s.container}>
                 <div className={s.wrapper}>
                     <div className={s.SerialInfo}>
-                        <h3><span className={s.item}>Основная информация:</span></h3>
+                        <h3><span className={s.Hitem}>Основная информация:</span></h3>
                         <p>{data[id - 1].Description}</p>
                         <p><span className={s.item}>Период выпуска: </span>{data[id - 1].Dates}</p>
                         <p><span className={s.item}>Количество сезонов: </span>{data[id - 1].SizonCount}</p>
@@ -82,7 +104,16 @@ function Serial() {
             <Trailer
                 trailerID={data[id - 1].Video}/>
 
-            <Footer />
+            <div className={s.container}>
+                <div className={s.TimeLineWrapper}>
+                    <h3 className={s.TimeLineHeader}>Время чего-то</h3>
+                    <Timeline lineColor={'#777'}>
+                        {TimelineItems}
+                    </Timeline>
+                </div>
+            </div>
+
+            <Footer/>
         </div>
     );
 }

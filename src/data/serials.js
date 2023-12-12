@@ -11,6 +11,7 @@ export let GetSerias = (isEnglish) => {
       Dates: allSerials[i].Dates,
       SizonCount: allSerials[i].SizonCount,
       Photos: allSerials[i].Photos,
+      Timeline: allSerials[i].Timeline,
     }
     if (isEnglish) {
       item.Name = allSerials[i].en.Name
@@ -58,6 +59,20 @@ const allSerials = [
       "https://upload.wikimedia.org/wikipedia/ru/thumb/5/5d/TheBigBangTheoryS9.jpg/274px-TheBigBangTheoryS9.jpg",
       "https://upload.wikimedia.org/wikipedia/ru/thumb/5/5d/TheBigBangTheoryS9.jpg/274px-TheBigBangTheoryS9.jpg",
     ],
+    Timeline: [
+      {
+        Time: "00.00.0000 - 00.00.0000",
+        Text: `Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. 
+              Veniam velit adipisicing anim excepteur nostrud magna nostrud aliqua dolor. Sunt aute est duis ut 
+              nulla officia irure reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem est.`
+      },
+      {
+        Time: "00.00.0000 - 00.00.0000",
+        Text: `Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. 
+              Veniam velit adipisicing anim excepteur nostrud magna nostrud aliqua dolor. Sunt aute est duis ut 
+              nulla officia irure reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem est.`
+      }
+    ],
   },
   {
     id: 2,
@@ -85,6 +100,20 @@ const allSerials = [
     Photos: [
       "https://www.vokrug.tv/pic/product/5/2/a/2/52a27d35a0ffc646b7a25bd8cbf5a120.jpeg",
       "https://www.vokrug.tv/pic/product/5/2/a/2/52a27d35a0ffc646b7a25bd8cbf5a120.jpeg",
+    ],
+    Timeline: [
+      {
+        Time: "00.00.0000 - 00.00.0000",
+        Text: `Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. 
+              Veniam velit adipisicing anim excepteur nostrud magna nostrud aliqua dolor. Sunt aute est duis ut 
+              nulla officia irure reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem est.`
+      },
+      {
+        Time: "00.00.0000 - 00.00.0000",
+        Text: `Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. 
+              Veniam velit adipisicing anim excepteur nostrud magna nostrud aliqua dolor. Sunt aute est duis ut 
+              nulla officia irure reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem est.`
+      }
     ],
   }
 ]
