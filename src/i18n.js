@@ -14,7 +14,7 @@ i18n.use(Backend)
         },
         returnEmptyString: false,
         backend: {
-            loadPath: 'http://boogdann.github.io/Series//locales/{{lng}}/translation.json'
+            loadPath: 'http://boogdann.github.io/Series/locales/{{lng}}/translation.json'
         }
     })
 
