@@ -24,8 +24,6 @@ function Home() {
 
             <FilmOfDay
                 title={t('home.title2')}
-                releaseDate="24.09.2007"
-                episodeCount={12}
                 button={t('home.btn2')}/>
 
             <Trailer

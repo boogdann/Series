@@ -32,8 +32,8 @@ const FilmOfDay = (props) => {
                                 <div className={s.main_info_text}>
                                     { i18n.language !== 'en' ?
                                     <div className={s.main_text}>
-                                        <p>{ t('home.date') } {props.releaseDate}</p>
-                                        <p>{ t('home.count') } {props.episodeCount}</p>
+                                        <p>{ t('home.date') } 24.09.2007</p>
+                                        <p>{ t('home.count') } 12</p>
 
                                         <p>
                                             «Теория Большого взрыва» — американский ситком,
@@ -44,8 +44,8 @@ const FilmOfDay = (props) => {
                                         канале CBS, а показ финального сезона завершился 16 мая 2019 года.</p>
                                     </div> :
                                     <div className={s.main_text}>
-                                        <p>{ t('home.date') } {props.releaseDate}</p>
-                                        <p>{ t('home.count') } {props.episodeCount}</p>
+                                        <p>{ t('home.date') } 24.09.2007</p>
+                                        <p>{ t('home.count') } 12</p>
                                         <p>
                                             "The Big Bang Theory" is an American sitcom
                                             created by Chuck Lorre and Bill Prady, who along with Steven Molaro were
