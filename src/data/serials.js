@@ -280,91 +280,187 @@ const allSerials = [
         en: {
             Name: "",
             MapInfo: "USA",
-            Description: ``,
+            Description: `"Days of Our Lives" is an eagerly anticipated American daytime drama that first premiered in 
+                           November 1965 on NBC. Created by Ted and Betty Corday, this series has become one of the 
+                           longest-running and most popular soap operas in the history of American television.
+
+                          "Days of Our Lives" is a typical representative of the soap opera genre, offering viewers 
+                          intricate plots, intrigues, romance, and a plethora of personal dramas. The plot focuses 
+                          on the lives of the inhabitants of the fictional town of Salem, created for the series, and 
+                          their relationships over many years.
+
+                          One of the unique features of "Days of Our Lives" is the constant influence of fantasy and 
+                          even science fiction elements on the storyline. For example, the plot sometimes includes 
+                          mysterious disappearances, conspiracies, memories of reincarnation, supernatural events, 
+                          and even time travel.`,
         },
-        SizonCount: 54,
-        Dates: "",
+        SizonCount: 1,
+        Dates: "08.11.1965 - ...",
         Map: {
             center: [39.8283, -98.5795],
             zoom: 4,
         },
-        Video: "",
-        Photo: "",
+        Video: "1EpuHGMn7B0",
+        Photo: "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/1afc57e2-6fd3-4e35-af59-75900edef60b/1920x",
         Photos: [
-
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/ab40b8e9-a883-49af-9cf0-b43bade5e602/1920x",
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/1e2957d6-b166-4bbf-8634-31d2fb844fe2/1920x",
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/db0037e8-c289-48a6-b9ea-ee35befedccd/1920x",
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/ea2a117e-c006-4999-8520-077e413ab38a/1920x"
         ],
         Timeline: [
             {
-                Time: "",
-                Text: ``
+                Time: "1965",
+                Text: "Премьера 'Days of Our Lives' на канале NBC. Сериал стартует, представляя зрителям вымышленный город Сейлем и начинает формировать базовые элементы своего стиля и сюжета."
             },
-
+            {
+                Time: "1960 - 1980",
+                Text: "Период начального успеха, когда 'Days of Our Lives' становится одним из ведущих дневных драматических сериалов. В этот период развиваются основные персонажи, и у сериала формируется фанатская база."
+            },
+            {
+                Time: "1980 - 2000",
+                Text: "Сериал переживает золотую эпоху, привлекая широкую аудиторию. Сложные сюжеты, романтика и интриги делают 'Days of Our Lives' одним из самых популярных телесериалов, продолжая развивать персональные драмы персонажей."
+            },
+            {
+                Time: "2000 - 2010",
+                Text: "Эксперименты с сюжетом включают в себя добавление фэнтезийных и научно-фантастических элементов, таких как загадочные исчезновения, заговоры и даже путешествия во времени. 'Days of Our Lives' продолжает удерживать внимание аудитории и оставаться актуальным."
+            },
+            {
+                Time: "2010-...",
+                Text: "Сериал сохраняет свою популярность, постоянно обновляя сюжетные направления и привлекая новых зрителей. 'Days of Our Lives' продолжает быть одним из столпов американской телевизионной драмы, обогащая свою историю новыми событиями и персонажами."
+            }
         ]
+
     },
     {
         id: 5,
         ru: {
-            Name: "Дни наших жизней",
+            Name: "Молодые и дерзкие",
             MapInfo: "США",
-            Description: `
-                         `
+            Description: `Американский дневной драматический сериал 'Молодые и дерзкие', который впервые вышел в эфир в
+                          1973 году. Создателем сериала является Уильям Дж. Белл. 'Молодые и дерзкие' считаются одним 
+                          из самых успешных и долгоиграющих телесериалов в истории американского телевидения. Сюжет 
+                          фокусируется на жизни богатых семей в вымышленном городе Дженова Сити, и 
+                          он стал пионером в использовании сложных сюжетов и поворотов в жанре мыльной оперы.`,
         },
         en: {
-            Name: "",
+            Name: "The Young and the Restless",
             MapInfo: "USA",
-            Description: ``,
+            Description: `The Young and the Restless is an American daytime soap opera that first premiered in 1973. 
+                          The series was created by William J. Bell. Considered one of the most successful and 
+                          longest-running soap operas in the history of American television, 'The Young and the 
+                          Restless' focuses on the lives of wealthy families in the fictional city of Genoa City. 
+                          It pioneered the use of intricate storylines and twists in the soap opera genre.`,
         },
-        SizonCount: 54,
-        Dates: "",
+        SizonCount: "45",
+        Dates: "1973 - ...",
         Map: {
             center: [39.8283, -98.5795],
-            zoom: 4,
+            zoom: 4
         },
-        Video: "",
-        Photo: "",
+        Video: "iMnVyE5KvHQ",
+        Photo: "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/7616decf-71a4-42c7-9d4f-ce96a610a258/300x450",
         Photos: [
-
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/282dee2c-93d6-4398-b860-25296390b080/1920x",
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/47a20971-5252-4210-8fd3-060a47ca3cee/1920x",
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/50dccb73-5e9e-4451-9150-a971bef88c88/1920x",
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/701a57e0-51a6-42ed-ac8e-7315ea2a248c/1920x"
         ],
         Timeline: [
             {
-                Time: "",
-                Text: ``
+                Time: "1973",
+                Text: "Премьера 'Молодые и дерзкие', привлекая внимание зрителей своим уникальным стилем и персонажами."
             },
-
+            {
+                Time: "1970 - 1980",
+                Text: "Период становления и развития. В сериале внедряются темы любви, интриг и борьбы за власть. " +
+                    "Персонажи, такие как Виктор Ньюман и Кэтрин Чэнселор, становятся центральными фигурами и " +
+                    "завоевывают любовь зрителей."
+            },
+            {
+                Time: "1980 - 1990",
+                Text: "Экспансия на мировой рынок, привлечение международной аудитории. 'Молодые и дерзкие' " +
+                    "становятся номинантами и лауреатами престижных " +
+                    "телевизионных наград. Истории о семейных интригах, бизнесе и страсти продолжают " +
+                    "завоевывать сердца зрителей."
+            },
+            {
+                Time: "2000 - 2010",
+                Text: "Инновации в сюжете, включая актуальные темы и развитие новых персонажей. Сериал поддерживает " +
+                    "лидерство в рейтингах и остается популярным у разнообразной аудитории. В это время в сюжете " +
+                    "появляются новые темы, такие как социальные проблемы и технологические вызовы."
+            },
+            {
+                Time: "2010 - ...",
+                Text: "Сериал продолжает активное вещание, привлекая новое поколение зрителей. 'Молодые и дерзкие' " +
+                    "остается в числе ведущих дневных драматических сериалов и продолжает эволюционировать с новыми " +
+                    "сюжетами и персонажами. Сохраняя традицию долгой истории, сериал продолжает освещать актуальные " +
+                    "темы и вызовы, с которыми сталкиваются современные семьи."
+            }
         ]
     },
     {
         id: 6,
         ru: {
-            Name: "Дни наших жизней",
-            MapInfo: "США",
-            Description: `
-                         `
+            Name: "Улица коронации",
+            MapInfo: "Великобритания",
+            Description: `Британский телесериал 'Улица коронации' (Coronation Street) является одним из долгоиграющих и 
+                          популярных телесериалов в истории. Премьера состоялась в декабре 1960 года, и сериал создан 
+                          Тони Уорреном. 'Улица коронации' фокусируется на жизни обитателей вымышленного района Везерфилд, 
+                          и он стал важной частью британской культуры, затрагивая разнообразные темы и социальные вопросы.`
         },
         en: {
-            Name: "",
-            MapInfo: "USA",
-            Description: ``,
+            Name: "Coronation Street",
+            MapInfo: "Place of Origin: United Kingdom",
+            Description: `The British television series 'Coronation Street' is one of the longest-running and popular 
+                          soap operas in history. It premiered in December 1960 and was created by Tony Warren. 
+                          'Coronation Street' focuses on the lives of residents in the fictional Weatherfield 
+                          area and has become a significant part of British culture, addressing diverse themes 
+                          and social issues.`
         },
-        SizonCount: 54,
-        Dates: "",
+        SizonCount: "60",
+        Dates: "02.12.1960 - ...",
         Map: {
-            center: [39.8283, -98.5795],
-            zoom: 4,
+            "center": [55.3781, -3.4360],
+            "zoom": 6
         },
-        Video: "",
-        Photo: "",
+        Video: "tsT1r2vXXQk",
+        Photo: "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/080c785c-43c3-4bac-b0f5-50fb695859e6/300x450",
         Photos: [
-
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/c89a0de3-8a21-46dd-85f2-5e0c67660c15/1920x",
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/324a811f-6956-4df6-b42a-d318671e26bc/1920x",
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/8bd60486-c3c0-4b71-aabe-68ba75aaddb1/1920x",
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/77ef4b3c-ee6f-444a-be29-655d17ba7b11/1920x"
         ],
         Timeline: [
             {
-                Time: "",
-                Text: ``
+                Time: "1960",
+                Text: "Премьера 'Улицы коронации'. Сериал стартует, представляя обыденные жизни жителей " +
+                      "Weatherfield и начиная свою долгую историю."
             },
-
+            {
+                Time: "1960-1970",
+                Text: "Период формирования и популяризации. 'Улица коронации' становится ключевым элементом " +
+                      "британской телекультуры, освещая социальные изменения и семейные взаимоотношения."
+            },
+            {
+                Time: "1980-1990",
+                Text: "Экспансия за пределы Великобритании. Завоевание мировой аудитории и престижных " +
+                      "телевизионных наград."
+            },
+            {
+                Time: "2000-2010",
+                Text: "Современные темы и актуальные сюжеты. 'Улица коронации' продолжает оставаться " +
+                      "популярной и привлекать внимание нового поколения зрителей."
+            },
+            {
+                Time: "После 2010",
+                Text: "Сериал сохраняет статус культового и продолжает активное вещание, углубляясь " +
+                      "в сложные темы и отражая современные вызовы общества."
+            }
         ]
     }
+
 
 ]
 
