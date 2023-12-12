@@ -1,6 +1,5 @@
 import Title from "./Title/title";
 import FilmOfDay from "./FilmOfDay/filmOfDay";
-import Slider from "../controls/Slider/Slider";
 import Header from "../utils/header/header";
 
 import s from "./home.module.css";
