@@ -9,40 +9,27 @@ const Footer = () => {
     return (
         <footer>
             <div className={s.footer__container}>
-                <div>
-                    <div className={s.footer__block}>
+                    <div className={"d-flex justify-between"}>
+                        <a className={s.teamImg} href={"https://gitlab.com/python-developers2055030"}>
                         <img className={s.footer__logo}
-                             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxQEqX8S4P056LbpQIgHfwjg-WC6GcnJsJwIT8pmaNmw&s"
-                             alt="logo"/>
-                        <div className={s.footer__data}>
-                            <div className={s.footer__column}>
-                                <NavLink className={s.footer__btn} to={"/Home"}>Home</NavLink>
-                                <NavLink className={s.footer__btn} to={"/films"}>Serials</NavLink>
-                                <NavLink className={s.footer__btn} to={"/news"}>News</NavLink>
-                            </div>
-                            <div className={s.footer__column}>
-
-                                <NavLink className={s.footer__btn} to={"/Home"}>Contacts</NavLink>
-                                <NavLink className={s.footer__btn} to={"/films"}>можно ещё</NavLink>
-                                <NavLink className={s.footer__btn} to={"/news"}>но я хз что</NavLink>
-                            </div>
-                        </div>
+                             src="https://lh3.googleusercontent.com/H5vEyHrn-Wopcyw_RDyOIMtuDcj_Rv_o2Fa8-Iu_8LK3LsG28XcRa7J0HnjHMoXDUFvbUQ35NWWNFdzACDVEfruZ4jUC7Kp8wg=s0"
+                             alt="python cucold developers team"/>
+                        </a>
                         <div className={s.footer__links}>
-                            <Icon color="primary">
-                                <Instagram/>
+                            <Icon className={s.Icon} >
+                                <Instagram className={s.Contact}/>
                             </Icon>
-                            <Icon color="primary">
-                                <Facebook/>
+                            <Icon className={s.Icon}>
+                                <Facebook className={s.Contact} />
                             </Icon>
-                            <Icon color="primary">
-                                <Mail/>
+                            <Icon className={s.Icon}>
+                                <Mail className={s.Contact}/>
                             </Icon>
-                            <Icon color="primary">
-                                <Twitter/>
+                            <Icon className={s.Icon}>
+                                <Twitter className={s.Contact}/>
                             </Icon>
                         </div>
                     </div>
-                </div>
             </div>
         </footer>
     );

@@ -1,0 +1,50 @@
+.container {
+    position: relative;
+    margin: 0 auto;
+    max-width: var(--maxWidth);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 var(--big-containerPadding);
+    background-color: var(--main-black);
+}
+
+.wrapper {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--block-black);
+}
+
+.Slider {
+    max-width: 450px;
+    width: 95%;
+}
+
+.Search {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--block-black);
+}
+
+.SearchLable {
+    font-weight: bold;
+    font-size: var(--medium);
+    margin-right: 5px;
+    color: #777777;
+}
+
+.Name {
+    color: #D3D3D3;
+    font-size: var(--medium_2);
+}
+
+.movie_button {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}

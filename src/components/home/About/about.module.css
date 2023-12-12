@@ -32,9 +32,13 @@
     background-color: var(--block-black);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     .about__devs {
         align-items: center;
         grid-template-columns: repeat(2, 0fr);
+        padding-left: 50px;
+        padding-right: 50px;
     }
 }
+
+
