@@ -14,16 +14,15 @@ function Films() {
 
     const { t, i18n } = useTranslation();
 
-    let data = GetSerias(i18n.language === 'en')
+    let data = GetSerias(i18n.language === 'en', false)
 
     return (
       <div className={s.Films}>
         <Header />
         <div>
             <Title
-                title="Топ 6 самых длинных сериалов"
-                content="Наша команда исследователей собрала для вас подробную информацию о сериалах,
-                         которые выделяются своей продолжительностью. Смотрите ниже..."
+                title={t('films.title')}
+                content={t('films.content')}
                 button=""/>
 
             <div className={s.slider}>

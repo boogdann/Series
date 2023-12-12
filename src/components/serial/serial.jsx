@@ -28,11 +28,10 @@ const theme = createTheme({
     },
 });
 
-
-function Serial() {
+function Serial(props) {
     const { id } = useParams();
     const { t, i18n } = useTranslation();
-    let data = GetSerias(i18n.language === 'en')
+    let data = GetSerias(i18n.language === 'en', props.isFilmOfTheDay)
 
 
     let ItemsArr = data[id-1].Photos.map((e) => {
@@ -63,6 +62,7 @@ function Serial() {
         )
     })
 
+
     return (
         <div>
             <Header/>
@@ -79,10 +79,10 @@ function Serial() {
             <div className={s.container}>
                 <div className={s.wrapper}>
                     <div className={s.SerialInfo}>
-                        <h3><span className={s.Hitem}>Основная информация:</span></h3>
+                        <h3><span className={s.Hitem}>{t('serial.main_info')}</span></h3>
                         <p>{data[id - 1].Description}</p>
-                        <p><span className={s.item}>Период выпуска: </span>{data[id - 1].Dates}</p>
-                        <p><span className={s.item}>Количество сезонов: </span>{data[id - 1].SizonCount}</p>
+                        <p><span className={s.item}>{t('serial.period_label')}</span>{data[id - 1].Dates}</p>
+                        <p><span className={s.item}>{t('serial.sizon_count')}</span>{data[id - 1].SizonCount}</p>
                     </div>
                     <div className={s.Map}>
                         <h3 className={s.map_text}>{data[id - 1].MapInfo}</h3>
@@ -106,7 +106,7 @@ function Serial() {
 
             <div className={s.container}>
                 <div className={s.TimeLineWrapper}>
-                    <h3 className={s.TimeLineHeader}>Время чего-то</h3>
+                    <h3 className={s.TimeLineHeader}>{t('serial.timeline')}</h3>
                     <Timeline lineColor={'#777'}>
                         {TimelineItems}
                     </Timeline>

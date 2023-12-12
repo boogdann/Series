@@ -15,7 +15,9 @@ const router = createBrowserRouter(
             <Route path='' element={<Home/>}/>
             <Route path='home' element={<Home/>}/>
             <Route path='films' element={<Films/>}/>
-            <Route path='serial/:id' element={<Serial/>}/>
+            <Route path='serial/:id' element={<Serial isFilmOfTheDay={false}/>}/>
+            <Route path='daylyFilm/:id' element={<Serial isFilmOfTheDay={true}/>}/>
+
         </Route>
     )
 );
