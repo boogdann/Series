@@ -13,6 +13,7 @@ const router = createBrowserRouter(
     createRoutesFromElements(
         <Route>
             <Route path='' element={<Home/>}/>
+            <Route path='Series' element={<Home/>}/>
             <Route path='home' element={<Home/>}/>
             <Route path='films' element={<Films/>}/>
             <Route path='serial/:id' element={<Serial isFilmOfTheDay={false}/>}/>
