@@ -33,6 +33,7 @@
     font-size: var(--large);
     margin-bottom: 10px;
     margin-top: -45px;
+    text-align: center;
 }
 
 .section__text {
@@ -42,6 +43,7 @@
     padding-left: var(--containerPadding);
     padding-right: var(--containerPadding);
     max-width: 1200px;
+    text-align: center;
 }
 
 .section__img {

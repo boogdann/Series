@@ -22,6 +22,7 @@ const Title = (props) => {
                             <h2 className={s.section__title}>
                                 {props.title}
                             </h2>
+                        {props.content !== "" ? <p className={s.section__text}>{props.content}</p> :
                             <p className={s.section__text}>
                                 <p>
                                 Добро пожаловать на наш сайт, посвященный самым длинным сериалам в истории кинематографа.
@@ -32,7 +33,9 @@ const Title = (props) => {
                                 количество сезонов и эпизодов, а также интересные факты о создании и производстве этих сериалов.</p>
                                 <p>Погрузитесь в мир длительных эпических приключений и наслаждайтесь просмотром!</p>
                             </p>
-                            <Button variant="outlined">{props.button}</Button>
+                        }
+                            {props.button === "" ? <></> : <Button variant="outlined">{props.button}</Button>}
+
                     </div>
                 </div>
             </ThemeProvider>

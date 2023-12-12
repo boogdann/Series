@@ -2,3 +2,8 @@
     background-color: var(--main-black);
     height: 1000px;
 }
+
+.slider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
