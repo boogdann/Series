@@ -9,6 +9,7 @@ i18n.use(Backend)
     .use(LanguageDetector)
     .use(initReactI18next)
     .init({
+        defaultNS: "ns1",
         fallbackLng: 'ru',
         debug: true,
         interpolation: {
