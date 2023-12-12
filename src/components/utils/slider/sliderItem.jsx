@@ -10,6 +10,7 @@ import TextField from '@material-ui/core/TextField';
 import { makeStyles } from '@material-ui/core/styles';
 import IconButton from '@material-ui/core/IconButton';
 import SearchIcon from '@material-ui/icons/Search';
+import {useTranslation} from "react-i18next";
 
 const theme = createTheme({
     palette: {
@@ -29,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-const GetItemsArr = (props, name) => {
+const GetItemsArr = (props, name, text) => {
     return props.data.filter((e) => e.Name.includes(name)).map((e) => {
         return (
             <div>
@@ -37,7 +38,7 @@ const GetItemsArr = (props, name) => {
                 <img src={e.Photo} alt={e.Name}/>
                 <NavLink to={"/serial/"+e.id} className={s.movie_button}>
                     <Button  variant="outlined">
-                        Узнать подробнее
+                        {text}
                     </Button>
                 </NavLink>
             </div>
@@ -46,14 +47,15 @@ const GetItemsArr = (props, name) => {
 }
 
 const SliderItem = (props) => {
+    const { t, i18n } = useTranslation();
 
     const [name, setName] = useState("");
 
-    let ItemsArr = GetItemsArr(props, name)
+    let ItemsArr = GetItemsArr(props, name, t('films.btn'))
 
 
     const handleSubmit = (event) => {
-        ItemsArr = GetItemsArr(props, name)
+        ItemsArr = GetItemsArr(props, name, t('films.btn'))
         event.preventDefault();
         setName("");
     };
@@ -68,14 +70,14 @@ const SliderItem = (props) => {
         <div className={s.container}>
             <ThemeProvider theme={theme}>
                 <div className={s.Search}>
-                    <span className={s.SearchLable}>Поиск: </span>
+                    <span className={s.SearchLable}>{t('slider.search')}</span>
                     <form className={classes.root} noValidate autoComplete="off">
                         <TextField
-                            label="Название сериала"
+                            label={t('slider.input_placeholder')}
                             variant="outlined"
                             InputProps={{
                                 style: {
-                                    color: '#777', // Здесь можно указать желаемый цвет текста
+                                    color: '#777',
                                 },
                             }}
                             value={name}
@@ -89,7 +91,7 @@ const SliderItem = (props) => {
                         <Carousel className={s.Slider}>
                             {ItemsArr}
                         </Carousel>
-                        : <p style={{color:"#777"}}>Сериалы с таким именем не найдены...</p>
+                        : <p style={{color:"#777"}}>{t('slider.not_found')}</p>
                     }
 
 
