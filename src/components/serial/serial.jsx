@@ -93,7 +93,8 @@ function Serial(props) {
 
             <div className={s.container}>
                 <ThemeProvider theme={theme}>
-                    <div className={s.wrapper}>
+                    <div className={s.TimeLineWrapper}>
+                        <h3 className={s.TimeLineHeader}>{t('serial.photos')}</h3>
                         <Carousel className={s.Slider}>
                             {ItemsArr}
                         </Carousel>

@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 var(--big-containerPadding);
+    padding: 10px var(--big-containerPadding);
     background-color: var(--main-black);
 }
 
@@ -21,6 +21,10 @@
     width: 100%;
     background-color: var(--block-black);
     align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .TimeLineWrapper {
@@ -38,6 +42,7 @@
     font-size: var(--large);
     margin-top: -20px;
 }
+
 
 .SerialInfo {
     max-width: 500px;

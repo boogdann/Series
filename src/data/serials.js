@@ -23,10 +23,12 @@ export let GetSerias = (isEnglish, isFilmOfTheDay) => {
             item.Name = arr[i].en.Name
             item.MapInfo = arr[i].en.MapInfo
             item.Description = arr[i].en.Description
+            item.Timeline = arr[i].en.Timeline
         } else {
             item.Name = arr[i].ru.Name
             item.MapInfo = arr[i].ru.MapInfo
             item.Description = arr[i].ru.Description
+            item.Timeline = arr[i].ru.Timeline
         }
         data.push(item)
     }
@@ -50,7 +52,34 @@ const allSerials = [
                       На протяжении стольких лет в сериале сменилось множество семей, вокруг которых крутился 
                       причудливо переплетающий судьбы сюжет. Это были Бауэры, Рутерленджи, Робертсы и 
                       Холдены, Гранты, Норрисы, Флетчеры, Мейсоны, Торп, Мерлеры, Сполдинги и многие другие.
-                   `
+                   `,
+            Timeline: [
+                {
+                    Time: "1952–1960",
+                    Text: `Установление основных семей и персонажей.
+                       Развитие основных сюжетных линий в контексте жизни в Springfield.`
+                },
+                {
+                    Time: "1960-1970",
+                    Text: `Введение важных событий и поворотных точек в сюжете.
+                       Развитие персональных историй персонажей.`
+                },
+                {
+                    Time: "1970-1980",
+                    Text: `Обращение к социальным темам и событиям времени.
+                       Дальнейшее развитие персональных и семейных историй.`
+                },
+                {
+                    Time: "1980-1990",
+                    Text: `Стабилизация формата и углубление в сюжеты.
+                       Важные повороты в судьбах ключевых персонажей.`
+                },
+                {
+                    Time: "1990-2009",
+                    Text: `Подведение итогов сюжетов и закрытие основных историй.
+                       Последние эпизоды и завершение "Guiding Light" в сентябре 2009 года.`
+                },
+            ],
         },
         en: {
             Name: "Guiding Light",
@@ -67,7 +96,35 @@ const allSerials = [
                       a plot that intricately intertwines fates. These were the Bowers, the Rutherlenjis, the Robertses and
                       Holdens, Grants, Norrises, Fletchers, Masons, Thorpe, Merlers, Spaldings and many others.
                     `,
+            Timeline: [
+                {
+                    Time: "1952–1960",
+                    Text: `The establishment of the main families and characters.
+                       The development of the main story lines in the context of life in Springfield.`
+                },
+                {
+                    Time: "1960-1970",
+                    Text: `The introduction of important events and turn points in the plot.
+                       The development of the personal histories of the characters.`
+                },
+                {
+                    Time: "1970-1980",
+                    Text: `The connection to social themes and events in the time.
+                       The development of the personal histories of the families.`
+                },
+                {
+                    Time: "1980-1990",
+                    Text: `The stabilization of the format and the deepening in the plot.
+                       The important turn points in the fate of key characters.`
+                },
+                {
+                    Time: "1990-2009",
+                    Text: `The conclusion of the series and the closing of the main histories.
+                       The last episodes and the conclusion of "Guiding Light" in September 2009.`
+                },
+            ]
         },
+
         Dates: "30.06.1952 - 18.09.2009",
         SizonCount: 57,
         Map: {
@@ -86,33 +143,6 @@ const allSerials = [
             "https://www.film.ru/sites/default/files/movies/frames/3715525-1356235.jpg",
             "https://www.film.ru/sites/default/files/movies/frames/3715525-1356232.jpg"
         ],
-        Timeline: [
-            {
-                Time: "1952–1960",
-                Text: `Установление основных семей и персонажей.
-                       Развитие основных сюжетных линий в контексте жизни в Springfield.`
-            },
-            {
-                Time: "1960-1970",
-                Text: `Введение важных событий и поворотных точек в сюжете.
-                       Развитие персональных историй персонажей.`
-            },
-            {
-                Time: "1970-1980",
-                Text: `Обращение к социальным темам и событиям времени.
-                       Дальнейшее развитие персональных и семейных историй.`
-            },
-            {
-                Time: "1980-1990",
-                Text: `Стабилизация формата и углубление в сюжеты.
-                       Важные повороты в судьбах ключевых персонажей.`
-            },
-            {
-                Time: "1990-2009",
-                Text: `Подведение итогов сюжетов и закрытие основных историй.
-                       Последние эпизоды и завершение "Guiding Light" в сентябре 2009 года.`
-            },
-        ],
     },
     {
         id: 2,
@@ -124,7 +154,43 @@ const allSerials = [
                            в вымышленном городе Порт Чарльз в штате Нью-Йорк. Сюжет включает в себя медицинские драмы, 
                            личные отношения персонала больницы, а также интриги и тайны, которые охватывают 
                            несколько поколений персонажей.
-                         `
+                         `,
+            Timeline: [
+                {
+                    Time: "1963 - 1980",
+                    Text: `Сериал стартует в 1963 году.
+                       Вводятся основные семьи, такие как Quartermaine и Spencer.
+                       Основные сюжетные линии включают любовные треугольники, семейные интриги и медицинские драмы.`
+                },
+                {
+                    Time: "1981 - 1995",
+                    Text: `Знаменитый сюжет о «Леденцовой купельни» (1981).
+                       Введение персонажа Люка Спенсера.
+                       Медицинские и детективные сюжеты становятся более сложными.
+                       Развитие отношений и интриг вокруг основных персонажей.`
+                },
+                {
+                    Time: "1996 - 2005",
+                    Text: `Сюжет о кассетах с Лорджеком (1996).
+                       Множество интриг и заговоров вокруг основных семей.
+                       Введение новых персонажей и углубление их связей.
+                       События в больнице и вне её оказывают влияние на сюжет.`
+                },
+                {
+                    Time: "2006 - 2015",
+                    Text: `Переход к современным темам и проблемам.
+                       Фокус на молодых персонажах и новых семейных династиях.
+                       Взаимодействие с медицинскими и общественными вопросами.
+                       Развитие технологий и изменения в обществе оказывают влияние на повествование.`
+                },
+                {
+                    Time: "2016 - ...",
+                    Text: `Сериал оставался актуальным с учетом событий в реальном мире.
+                       Развитие персональных и медицинских историй.
+                       Завершение или развитие ключевых сюжетных линий.
+                       Продолжение эволюции персонажей и внедрение новых динамик.`
+                }
+            ],
         },
         en: {
             Name: "General Hospital",
@@ -135,6 +201,42 @@ const allSerials = [
                            the personal relationships of the hospital staff, as well as the intrigue and secrets that surround
                            several different characters.
                           `,
+            Timeline: [
+                {
+                    Time: "1963 - 1980",
+                    Text: `The series began in 1963.
+                       The families of the series include Quartermaine and Spencer.
+                       The main story lines include love triangles, family relationships, and medical dramas.`
+                },
+                {
+                    Time: "1981 - 1995",
+                    Text: `The first story of the series, "The Sleeping Pill," was released in 1981.
+                       The character of Luke Spencer was introduced.
+                       The medical drama scenes are more complex.
+                       The relationship and intrigue around the main characters.`
+                },
+                {
+                    Time: "1996 - 2005",
+                    Text: `The story of the cassette "The Cure" was released in 1996.
+                       Manyintrigues and rumors around the main families.
+                       The introduction of new characters and their relationships.
+                       The events in the hospital and out of it have an effect on the story.`
+                },
+                {
+                    Time: "2006 - 2015",
+                    Text: `The series has become increasingly relevant to modern themes and problems.
+                       The focus on the young characters and new family groups.
+                       The relationship with the medical and social questions.
+                       The technology and the change in the community have an effect on the story.`
+                },
+                {
+                    Time: "2016 - ...",
+                    Text: `The series has remained relevant in the real world.
+                       The evolution of personal and medical histories.
+                       The completion or evolution of key narrative lines.
+                       The evolution of the characters and the introduction of new dynamics.`
+                }
+            ],
         },
         SizonCount: 52,
         Dates: "01.04.1932 - ...",
@@ -148,42 +250,6 @@ const allSerials = [
             "https://s.zefirka.net/images/2021-11-15/samye-dolgoigrayushhie-serialy-za-vsyu-istoriyu/samye-dolgoigrayushhie-serialy-za-vsyu-istoriyu-3.jpg",
             "https://i.pinimg.com/originals/1a/82/f1/1a82f1e7104267bd192468d68f838bab.jpg",
             "https://resizer.mail.ru/p/d677a958-cb73-58bf-a2cb-74fb111de933/AAAC4A-5LlZP4DOu0dAys_p01_Xh-eVp8rtuHaTkE7wC5tiJMw2_OEaB3s9myMOyv4YLNiXNSk7V03CEU28ZJpLHyvs.jpg"
-        ],
-        Timeline: [
-            {
-                Time: "1963 - 1980",
-                Text: `Сериал стартует в 1963 году.
-                       Вводятся основные семьи, такие как Quartermaine и Spencer.
-                       Основные сюжетные линии включают любовные треугольники, семейные интриги и медицинские драмы.`
-            },
-            {
-                Time: "1981 - 1995",
-                Text: `Знаменитый сюжет о «Леденцовой купельни» (1981).
-                       Введение персонажа Люка Спенсера.
-                       Медицинские и детективные сюжеты становятся более сложными.
-                       Развитие отношений и интриг вокруг основных персонажей.`
-            },
-            {
-                Time: "1996 - 2005",
-                Text: `Сюжет о кассетах с Лорджеком (1996).
-                       Множество интриг и заговоров вокруг основных семей.
-                       Введение новых персонажей и углубление их связей.
-                       События в больнице и вне её оказывают влияние на сюжет.`
-            },
-            {
-                Time: "2006 - 2015",
-                Text: `Переход к современным темам и проблемам.
-                       Фокус на молодых персонажах и новых семейных династиях.
-                       Взаимодействие с медицинскими и общественными вопросами.
-                       Развитие технологий и изменения в обществе оказывают влияние на повествование.`
-            },
-            {
-                Time: "2016 - ...",
-                Text: `Сериал оставался актуальным с учетом событий в реальном мире.
-                       Развитие персональных и медицинских историй.
-                       Завершение или развитие ключевых сюжетных линий.
-                       Продолжение эволюции персонажей и внедрение новых динамик.`
-            }
         ],
     },
     {
@@ -201,7 +267,29 @@ const allSerials = [
                             историй персонажей на протяжении многих лет. Зрители следили за их жизненными изменениями, 
                             от радостей до трудностей, и наблюдали за тем, как персонажи развиваются и сталкиваются с 
                             новыми вызовами.
-                         `
+                         `,
+            Timeline: [
+                {
+                    Time: "1956 - 1960",
+                    Text: "Запуск сериала и введение основных персонажей и сюжетных линий."
+                },
+                {
+                    Time: "1960 - 1975",
+                    Text: "Расцвет популярности, внедрение новых сюжетов и персонажей."
+                },
+                {
+                    Time: "1975 - 1990",
+                    Text: "Инновации и смена акцентов, внедрение новых тем и технологий."
+                },
+                {
+                    Time: "1990 - 2005",
+                    Text: "Развитие сюжетных линий, внедрение новых персонажей, изменение динамики."
+                },
+                {
+                    Time: "2005 - ..",
+                    Text: "Современная эпоха сериала, адаптация к изменениям в телевизионной индустрии и зрительских предпочтениях."
+                }
+            ]
         },
         en: {
             Name: "As the World Turns",
@@ -216,6 +304,28 @@ const allSerials = [
                             personal stories over the years. Viewers followed their life changes, from joys to 
                             difficulties, and watched as the characters developed and faced new challenges.
                           `,
+            Timeline: [
+                {
+                    Time: "1956 - 1960",
+                    Text: "Launch of the series and introduction of the main characters and plot lines."
+                },
+                {
+                    Time: "1960 - 1975",
+                    Text: "The rising of popularity, introduction of new plot lines and characters."
+                },
+                {
+                    Time: "1975 - 1990",
+                    Text: "Innovations and accent changes, introduction of new themes and technologies."
+                },
+                {
+                    Time: "1990 - 2005",
+                    Text: "The development of plot lines, introduction of new characters, change of dynamics."
+                },
+                {
+                    Time: "2005 - ..",
+                    Text: "Modern era of the series, adaptation to changes in television industry and audience preferences."
+                }
+            ]
         },
         SizonCount: 54,
         Dates: "02.04.1956 - 17.09.2010",
@@ -233,28 +343,6 @@ const allSerials = [
 
 
         ],
-        Timeline: [
-            {
-                Time: "1956 - 1960",
-                Text: "Запуск сериала и введение основных персонажей и сюжетных линий."
-            },
-            {
-                Time: "1960 - 1975",
-                Text: "Расцвет популярности, внедрение новых сюжетов и персонажей."
-            },
-            {
-                Time: "1975 - 1990",
-                Text: "Инновации и смена акцентов, внедрение новых тем и технологий."
-            },
-            {
-                Time: "1990 - 2005",
-                Text: "Развитие сюжетных линий, внедрение новых персонажей, изменение динамики."
-            },
-            {
-                Time: "2005 - ..",
-                Text: "Современная эпоха сериала, адаптация к изменениям в телевизионной индустрии и зрительских предпочтениях."
-            }
-        ]
     },
     {
         id: 4,
@@ -275,7 +363,29 @@ const allSerials = [
                            даже научно-фантастических элементов на сюжет. К примеру, сюжет иногда включает в себя 
                            загадочные исчезновения, заговоры, память о перерождении, сверхъестественные события и 
                            даже путешествия во времени.
-                         `
+                         `,
+            Timeline: [
+                {
+                    Time: "1965",
+                    Text: "Премьера 'Days of Our Lives' на канале NBC. Сериал стартует, представляя зрителям вымышленный город Сейлем и начинает формировать базовые элементы своего стиля и сюжета."
+                },
+                {
+                    Time: "1960 - 1980",
+                    Text: "Период начального успеха, когда 'Days of Our Lives' становится одним из ведущих дневных драматических сериалов. В этот период развиваются основные персонажи, и у сериала формируется фанатская база."
+                },
+                {
+                    Time: "1980 - 2000",
+                    Text: "Сериал переживает золотую эпоху, привлекая широкую аудиторию. Сложные сюжеты, романтика и интриги делают 'Days of Our Lives' одним из самых популярных телесериалов, продолжая развивать персональные драмы персонажей."
+                },
+                {
+                    Time: "2000 - 2010",
+                    Text: "Эксперименты с сюжетом включают в себя добавление фэнтезийных и научно-фантастических элементов, таких как загадочные исчезновения, заговоры и даже путешествия во времени. 'Days of Our Lives' продолжает удерживать внимание аудитории и оставаться актуальным."
+                },
+                {
+                    Time: "2010-...",
+                    Text: "Сериал сохраняет свою популярность, постоянно обновляя сюжетные направления и привлекая новых зрителей. 'Days of Our Lives' продолжает быть одним из столпов американской телевизионной драмы, обогащая свою историю новыми событиями и персонажами."
+                }
+            ]
         },
         en: {
             Name: "",
@@ -293,6 +403,28 @@ const allSerials = [
                           even science fiction elements on the storyline. For example, the plot sometimes includes 
                           mysterious disappearances, conspiracies, memories of reincarnation, supernatural events, 
                           and even time travel.`,
+            Timeline: [
+                {
+                    Time: "1965",
+                    Text: "The premiere of 'Days of Our Lives' on the NBC. The series starts, presenting the audience with a fictional city of Salem and beginning to form the basis of the series."
+                },
+                {
+                    Time: "1960 - 1980",
+                    Text: "The beginning of the period when 'Days of Our Lives' is one of the leading daytime operas. The series develops the main characters, and the basis of the series is formed."
+                },
+                {
+                    Time: "1980 - 2000",
+                    Text: "The series faces the gold age of television, bringing wide audiences. The storyline is complicated, introducing the characters and the personal drama of the characters."
+                },
+                {
+                    Time: "2000 - 2010",
+                    Text: "The series keeps pace with the development of the storyline. The plot is constantly changing, introducing new plot elements and new characters."
+                },
+                {
+                    Time: "2010-...",
+                    Text: "The series keeps its popularity, constantly updating the plot and introducing new characters."
+                }
+            ]
         },
         SizonCount: 1,
         Dates: "08.11.1965 - ...",
@@ -308,28 +440,6 @@ const allSerials = [
             "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/db0037e8-c289-48a6-b9ea-ee35befedccd/1920x",
             "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/ea2a117e-c006-4999-8520-077e413ab38a/1920x"
         ],
-        Timeline: [
-            {
-                Time: "1965",
-                Text: "Премьера 'Days of Our Lives' на канале NBC. Сериал стартует, представляя зрителям вымышленный город Сейлем и начинает формировать базовые элементы своего стиля и сюжета."
-            },
-            {
-                Time: "1960 - 1980",
-                Text: "Период начального успеха, когда 'Days of Our Lives' становится одним из ведущих дневных драматических сериалов. В этот период развиваются основные персонажи, и у сериала формируется фанатская база."
-            },
-            {
-                Time: "1980 - 2000",
-                Text: "Сериал переживает золотую эпоху, привлекая широкую аудиторию. Сложные сюжеты, романтика и интриги делают 'Days of Our Lives' одним из самых популярных телесериалов, продолжая развивать персональные драмы персонажей."
-            },
-            {
-                Time: "2000 - 2010",
-                Text: "Эксперименты с сюжетом включают в себя добавление фэнтезийных и научно-фантастических элементов, таких как загадочные исчезновения, заговоры и даже путешествия во времени. 'Days of Our Lives' продолжает удерживать внимание аудитории и оставаться актуальным."
-            },
-            {
-                Time: "2010-...",
-                Text: "Сериал сохраняет свою популярность, постоянно обновляя сюжетные направления и привлекая новых зрителей. 'Days of Our Lives' продолжает быть одним из столпов американской телевизионной драмы, обогащая свою историю новыми событиями и персонажами."
-            }
-        ]
 
     },
     {
@@ -342,6 +452,38 @@ const allSerials = [
                           из самых успешных и долгоиграющих телесериалов в истории американского телевидения. Сюжет 
                           фокусируется на жизни богатых семей в вымышленном городе Дженова Сити, и 
                           он стал пионером в использовании сложных сюжетов и поворотов в жанре мыльной оперы.`,
+            Timeline: [
+                {
+                    Time: "1973",
+                    Text: "Премьера 'Молодые и дерзкие', привлекая внимание зрителей своим уникальным стилем и персонажами."
+                },
+                {
+                    Time: "1970 - 1980",
+                    Text: "Период становления и развития. В сериале внедряются темы любви, интриг и борьбы за власть. " +
+                        "Персонажи, такие как Виктор Ньюман и Кэтрин Чэнселор, становятся центральными фигурами и " +
+                        "завоевывают любовь зрителей."
+                },
+                {
+                    Time: "1980 - 1990",
+                    Text: "Экспансия на мировой рынок, привлечение международной аудитории. 'Молодые и дерзкие' " +
+                        "становятся номинантами и лауреатами престижных " +
+                        "телевизионных наград. Истории о семейных интригах, бизнесе и страсти продолжают " +
+                        "завоевывать сердца зрителей."
+                },
+                {
+                    Time: "2000 - 2010",
+                    Text: "Инновации в сюжете, включая актуальные темы и развитие новых персонажей. Сериал поддерживает " +
+                        "лидерство в рейтингах и остается популярным у разнообразной аудитории. В это время в сюжете " +
+                        "появляются новые темы, такие как социальные проблемы и технологические вызовы."
+                },
+                {
+                    Time: "2010 - ...",
+                    Text: "Сериал продолжает активное вещание, привлекая новое поколение зрителей. 'Молодые и дерзкие' " +
+                        "остается в числе ведущих дневных драматических сериалов и продолжает эволюционировать с новыми " +
+                        "сюжетами и персонажами. Сохраняя традицию долгой истории, сериал продолжает освещать актуальные " +
+                        "темы и вызовы, с которыми сталкиваются современные семьи."
+                }
+            ]
         },
         en: {
             Name: "The Young and the Restless",
@@ -351,6 +493,38 @@ const allSerials = [
                           longest-running soap operas in the history of American television, 'The Young and the 
                           Restless' focuses on the lives of wealthy families in the fictional city of Genoa City. 
                           It pioneered the use of intricate storylines and twists in the soap opera genre.`,
+            Timeline: [
+                {
+                    Time: "1973",
+                    Text: "The Young and the Restless premieres on 'The Young and the Restless', " +
+                        "giving viewers an insight into the unique style and characters."
+                },
+                {
+                    Time: "1970 - 1980",
+                    Text: "The period of growth and development. The series introduces themes of love, " +
+                        "intrigue and fighting for the rights of the people. The characters, such as Victor " +
+                        "Newman and Caterina Chansell, become central figures and win hearts of fans."
+                },
+                {
+                    Time: "1980 - 1990",
+                    Text: "The spread of innovations in the storyline, including the latest themes and " +
+                        "new characters. The series supports the success of the ratings and remains popular " +
+                        "among the audience. The characters, such as the wealthy families in Genoa City, " +
+                        "become new figures and win hearts of fans."
+                },
+                {
+                    Time: "2000 - 2010",
+                    Text: "The series continues to the development of the storyline, bringing new themes " +
+                        "and new characters. The characters, such as the wealthy families in Genoa City, " +
+                        "become new figures and win hearts of fans."
+                },
+                {
+                    Time: "2010 - ...",
+                    Text: "The series continues to the development of the storyline, bringing new themes " +
+                        "and new characters. The characters, such as the wealthy families in Genoa City, " +
+                        "become new figures and win hearts of fans."
+                }
+            ]
         },
         SizonCount: "45",
         Dates: "1973 - ...",
@@ -366,38 +540,6 @@ const allSerials = [
             "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/50dccb73-5e9e-4451-9150-a971bef88c88/1920x",
             "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/701a57e0-51a6-42ed-ac8e-7315ea2a248c/1920x"
         ],
-        Timeline: [
-            {
-                Time: "1973",
-                Text: "Премьера 'Молодые и дерзкие', привлекая внимание зрителей своим уникальным стилем и персонажами."
-            },
-            {
-                Time: "1970 - 1980",
-                Text: "Период становления и развития. В сериале внедряются темы любви, интриг и борьбы за власть. " +
-                    "Персонажи, такие как Виктор Ньюман и Кэтрин Чэнселор, становятся центральными фигурами и " +
-                    "завоевывают любовь зрителей."
-            },
-            {
-                Time: "1980 - 1990",
-                Text: "Экспансия на мировой рынок, привлечение международной аудитории. 'Молодые и дерзкие' " +
-                    "становятся номинантами и лауреатами престижных " +
-                    "телевизионных наград. Истории о семейных интригах, бизнесе и страсти продолжают " +
-                    "завоевывать сердца зрителей."
-            },
-            {
-                Time: "2000 - 2010",
-                Text: "Инновации в сюжете, включая актуальные темы и развитие новых персонажей. Сериал поддерживает " +
-                    "лидерство в рейтингах и остается популярным у разнообразной аудитории. В это время в сюжете " +
-                    "появляются новые темы, такие как социальные проблемы и технологические вызовы."
-            },
-            {
-                Time: "2010 - ...",
-                Text: "Сериал продолжает активное вещание, привлекая новое поколение зрителей. 'Молодые и дерзкие' " +
-                    "остается в числе ведущих дневных драматических сериалов и продолжает эволюционировать с новыми " +
-                    "сюжетами и персонажами. Сохраняя традицию долгой истории, сериал продолжает освещать актуальные " +
-                    "темы и вызовы, с которыми сталкиваются современные семьи."
-            }
-        ]
     },
     {
         id: 6,
@@ -407,7 +549,34 @@ const allSerials = [
             Description: `Британский телесериал 'Улица коронации' (Coronation Street) является одним из долгоиграющих и 
                           популярных телесериалов в истории. Премьера состоялась в декабре 1960 года, и сериал создан 
                           Тони Уорреном. 'Улица коронации' фокусируется на жизни обитателей вымышленного района Везерфилд, 
-                          и он стал важной частью британской культуры, затрагивая разнообразные темы и социальные вопросы.`
+                          и он стал важной частью британской культуры, затрагивая разнообразные темы и социальные вопросы.`,
+            Timeline: [
+                {
+                    Time: "1960",
+                    Text: "Премьера 'Улицы коронации'. Сериал стартует, представляя обыденные жизни жителей " +
+                        "Weatherfield и начиная свою долгую историю."
+                },
+                {
+                    Time: "1960-1970",
+                    Text: "Период формирования и популяризации. 'Улица коронации' становится ключевым элементом " +
+                        "британской телекультуры, освещая социальные изменения и семейные взаимоотношения."
+                },
+                {
+                    Time: "1980-1990",
+                    Text: "Экспансия за пределы Великобритании. Завоевание мировой аудитории и престижных " +
+                        "телевизионных наград."
+                },
+                {
+                    Time: "2000-2010",
+                    Text: "Современные темы и актуальные сюжеты. 'Улица коронации' продолжает оставаться " +
+                        "популярной и привлекать внимание нового поколения зрителей."
+                },
+                {
+                    Time: "После 2010",
+                    Text: "Сериал сохраняет статус культового и продолжает активное вещание, углубляясь " +
+                        "в сложные темы и отражая современные вызовы общества."
+                }
+            ]
         },
         en: {
             Name: "Coronation Street",
@@ -416,7 +585,33 @@ const allSerials = [
                           soap operas in history. It premiered in December 1960 and was created by Tony Warren. 
                           'Coronation Street' focuses on the lives of residents in the fictional Weatherfield 
                           area and has become a significant part of British culture, addressing diverse themes 
-                          and social issues.`
+                          and social issues.`,
+            Timeline: [
+                {
+                    Time: "1960",
+                    Text: "The premiere of 'Coronation Street'. The series starts, representing the rich lives of " +
+                        "Weatherfield and beginning its long and storied history."
+                },
+                {
+                    Time: "1960-1970",
+                    Text: "The formation and popularity. 'Coronation Street' becomes a key element of British " +
+                        "culture, lighting up social changes and family relationships."
+                },
+                {
+                    Time: "1980-1990",
+                    Text: "The expansion across Britain. Worldwide audience recognition and top awards."
+                },
+                {
+                    Time: "2000-2010",
+                    Text: "The modern themes and actual scenarios. 'Coronation Street' continues to be popular and " +
+                        "engages in the development of new generations of audience."
+                },
+                {
+                    Time: "After 2010",
+                    Text: "The series retains its status as a cultural and continues active entertainment, " +
+                        "deeply examining the modern issues of the world."
+                }
+            ]
         },
         SizonCount: "60",
         Dates: "02.12.1960 - ...",
@@ -432,33 +627,6 @@ const allSerials = [
             "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/8bd60486-c3c0-4b71-aabe-68ba75aaddb1/1920x",
             "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/77ef4b3c-ee6f-444a-be29-655d17ba7b11/1920x"
         ],
-        Timeline: [
-            {
-                Time: "1960",
-                Text: "Премьера 'Улицы коронации'. Сериал стартует, представляя обыденные жизни жителей " +
-                    "Weatherfield и начиная свою долгую историю."
-            },
-            {
-                Time: "1960-1970",
-                Text: "Период формирования и популяризации. 'Улица коронации' становится ключевым элементом " +
-                    "британской телекультуры, освещая социальные изменения и семейные взаимоотношения."
-            },
-            {
-                Time: "1980-1990",
-                Text: "Экспансия за пределы Великобритании. Завоевание мировой аудитории и престижных " +
-                    "телевизионных наград."
-            },
-            {
-                Time: "2000-2010",
-                Text: "Современные темы и актуальные сюжеты. 'Улица коронации' продолжает оставаться " +
-                    "популярной и привлекать внимание нового поколения зрителей."
-            },
-            {
-                Time: "После 2010",
-                Text: "Сериал сохраняет статус культового и продолжает активное вещание, углубляясь " +
-                    "в сложные темы и отражая современные вызовы общества."
-            }
-        ]
     }
 
 
@@ -470,12 +638,48 @@ const filmOfTheDay = [
         ru: {
             Name: "Теория большого взрыва",
             MapInfo: "США",
-            Description: "«Теория большого взрыва» - это захватывающая история о четырех ученых-физиках и их приключениях в мире науки и личных отношений. Сериал полон юмора, неожиданных ситуаций и увлекательных сюжетов. Главные герои, Шелдон Купер и Леонард Хофстедтер, делят не только лабораторию, но и дом, где происходят многочисленные комические ситуации. Отношения Шелдона и его друзей, а также любовные перипетии Леонарда и Пенни составляют основной сюжет сериала."
+            Description: "«Теория большого взрыва» - это захватывающая история о четырех ученых-физиках и их приключениях в мире науки и личных отношений. Сериал полон юмора, неожиданных ситуаций и увлекательных сюжетов. Главные герои, Шелдон Купер и Леонард Хофстедтер, делят не только лабораторию, но и дом, где происходят многочисленные комические ситуации. Отношения Шелдона и его друзей, а также любовные перипетии Леонарда и Пенни составляют основной сюжет сериала.",
+            Timeline: [
+                {
+                    Time: "24.09.2007 - 16.05.2019",
+                    Text: "«Теория большого взрыва» началась 24 сентября 2007 года и завершилась 16 мая 2019 года после 12 сезонов. Сериал получил широкое признание и стал одним из самых популярных комедийных шоу в истории телевидения."
+                },
+                {
+                    Time: "2008 - 2010",
+                    Text: "Леонард и Пенни начинают свои отношения, что приводит к множеству комических ситуаций и недопониманий. В это время Шелдон продолжает развивать свои уникальные привычки, что вызывает смех и удивление у зрителей."
+                },
+                {
+                    Time: "2013",
+                    Text: "Шелдон предложил Ами начать встречаться, открывая новую главу в его жизни и отношениях. Этот поворот событий стал одним из самых запоминающихся моментов в сериале."
+                },
+                {
+                    Time: "2017",
+                    Text: "Финальный сезон завершил историю героев. Зрители прощались с любимыми персонажами и сериалом, который стал культовым в мире телевидения. Последние эпизоды были насыщены эмоциями, воспоминаниями и неожиданными развитиями сюжета."
+                }
+            ]
         },
         en: {
             Name: "The Big Bang Theory",
             MapInfo: "USA",
-            "Description": "The Big Bang Theory is an exciting story about four physicists and their adventures in the world of science and personal relationships. The series is full of humor, unexpected situations, and captivating plots. The main characters, Sheldon Cooper and Leonard Hofstadter, not only share a laboratory but also a home where numerous comedic situations unfold. The relationships between Sheldon and his friends, as well as the romantic twists between Leonard and Penny, form the core of the series."
+            "Description": "The Big Bang Theory is an exciting story about four physicists and their adventures in the world of science and personal relationships. The series is full of humor, unexpected situations, and captivating plots. The main characters, Sheldon Cooper and Leonard Hofstadter, not only share a laboratory but also a home where numerous comedic situations unfold. The relationships between Sheldon and his friends, as well as the romantic twists between Leonard and Penny, form the core of the series.",
+            Timeline: [
+                {
+                    Time: "24.09.2007 - 16.05.2019",
+                    Text: "The Big Bang Theory began on September 24, 2007, and finished in May 2019 after 12 seasons. The series was ranked among the most popular comed shows in the world."
+                },
+                {
+                    Time: "2008 - 2010",
+                    Text: "Leonard and Penny start their relationship, leading to numerous comic situations and miscommunications. This turnaround in the series has brought the show to life."
+                },
+                {
+                    Time: "2013",
+                    Text: "Sheldon proposes to Amy to start a relationship. This turns the series into one of the most memorable moments in the series."
+                },
+                {
+                    Time: "2017",
+                    Text: "The final season has ended. People have left the series with memories, surprises, and unexpected events. The series is now a cultural phenomenon in the world of TV."
+                }
+            ]
         },
         Dates: "24.09.2007 - 16.05.2019",
         SizonCount: 12,
@@ -491,23 +695,5 @@ const filmOfTheDay = [
             "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/00f5b682-07c2-412d-9f66-b76cea0309e3/1920x",
             "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/e843c1ee-5b52-4124-a009-0daa13d9882b/1920x"
         ],
-        Timeline: [
-            {
-                Time: "24.09.2007 - 16.05.2019",
-                Text: "«Теория большого взрыва» началась 24 сентября 2007 года и завершилась 16 мая 2019 года после 12 сезонов. Сериал получил широкое признание и стал одним из самых популярных комедийных шоу в истории телевидения."
-            },
-            {
-                Time: "2008 - 2010",
-                Text: "Леонард и Пенни начинают свои отношения, что приводит к множеству комических ситуаций и недопониманий. В это время Шелдон продолжает развивать свои уникальные привычки, что вызывает смех и удивление у зрителей."
-            },
-            {
-                Time: "2013",
-                Text: "Шелдон предложил Ами начать встречаться, открывая новую главу в его жизни и отношениях. Этот поворот событий стал одним из самых запоминающихся моментов в сериале."
-            },
-            {
-                Time: "2017",
-                Text: "Финальный сезон завершил историю героев. Зрители прощались с любимыми персонажами и сериалом, который стал культовым в мире телевидения. Последние эпизоды были насыщены эмоциями, воспоминаниями и неожиданными развитиями сюжета."
-            }
-        ]
     }
 ]
