@@ -436,27 +436,27 @@ const allSerials = [
             {
                 Time: "1960",
                 Text: "Премьера 'Улицы коронации'. Сериал стартует, представляя обыденные жизни жителей " +
-                      "Weatherfield и начиная свою долгую историю."
+                    "Weatherfield и начиная свою долгую историю."
             },
             {
                 Time: "1960-1970",
                 Text: "Период формирования и популяризации. 'Улица коронации' становится ключевым элементом " +
-                      "британской телекультуры, освещая социальные изменения и семейные взаимоотношения."
+                    "британской телекультуры, освещая социальные изменения и семейные взаимоотношения."
             },
             {
                 Time: "1980-1990",
                 Text: "Экспансия за пределы Великобритании. Завоевание мировой аудитории и престижных " +
-                      "телевизионных наград."
+                    "телевизионных наград."
             },
             {
                 Time: "2000-2010",
                 Text: "Современные темы и актуальные сюжеты. 'Улица коронации' продолжает оставаться " +
-                      "популярной и привлекать внимание нового поколения зрителей."
+                    "популярной и привлекать внимание нового поколения зрителей."
             },
             {
                 Time: "После 2010",
                 Text: "Сериал сохраняет статус культового и продолжает активное вещание, углубляясь " +
-                      "в сложные темы и отражая современные вызовы общества."
+                    "в сложные темы и отражая современные вызовы общества."
             }
         ]
     }
@@ -468,47 +468,46 @@ const filmOfTheDay = [
     {
         id: 1,
         ru: {
-            Name: "фильм X",
-            MapInfo: "Что за место X",
-            Description: ` "Рандомный фильм" - это захватывающая история о неожиданной встрече двух незнакомцев,
-          которая меняет их жизни навсегда. Фильм полон эмоций, напряжения и неожиданных поворотов сюжета.
-          "Рандомный фильм" - это захватывающая история о неожиданной встрече двух незнакомцев,
-          которая меняет их жизни навсегда. Фильм полон эмоций, напряжения и неожиданных поворотов сюжета.
-          "Рандомный фильм" - это захватывающая история о неожиданной встрече двух незнакомцев,
-          которая меняет их жизни навсегда. Фильм полон эмоций, напряжения и неожиданных поворотов сюжета.`
+            Name: "Теория большого взрыва",
+            MapInfo: "США",
+            Description: "«Теория большого взрыва» - это захватывающая история о четырех ученых-физиках и их приключениях в мире науки и личных отношений. Сериал полон юмора, неожиданных ситуаций и увлекательных сюжетов. Главные герои, Шелдон Купер и Леонард Хофстедтер, делят не только лабораторию, но и дом, где происходят многочисленные комические ситуации. Отношения Шелдона и его друзей, а также любовные перипетии Леонарда и Пенни составляют основной сюжет сериала."
         },
         en: {
-            Name: "film X",
-            MapInfo: "What the place X",
-            Description: `"A random movie is a captivating story about an unexpected encounter between two 
-                    strangers that changes their lives forever. The movie is full of emotions, tension, 
-                    and unexpected plot twists."`,
+            Name: "The Big Bang Theory",
+            MapInfo: "USA",
+            "Description": "The Big Bang Theory is an exciting story about four physicists and their adventures in the world of science and personal relationships. The series is full of humor, unexpected situations, and captivating plots. The main characters, Sheldon Cooper and Leonard Hofstadter, not only share a laboratory but also a home where numerous comedic situations unfold. The relationships between Sheldon and his friends, as well as the romantic twists between Leonard and Penny, form the core of the series."
         },
-        Dates: "00.00.0000 - 00.00.0000",
+        Dates: "24.09.2007 - 16.05.2019",
         SizonCount: 12,
         Map: {
-            center: [55.751574, 37.573856],
-            zoom: 10,
+            center: [39.8283, -98.5795],
+            zoom: 4,
         },
-        Video: "QdBZY2fkU-0",
+        Video: "OpECq14wxiM",
         Photo: "https://upload.wikimedia.org/wikipedia/ru/thumb/5/5d/TheBigBangTheoryS9.jpg/274px-TheBigBangTheoryS9.jpg",
         Photos: [
-            "https://upload.wikimedia.org/wikipedia/ru/thumb/5/5d/TheBigBangTheoryS9.jpg/274px-TheBigBangTheoryS9.jpg",
-            "https://upload.wikimedia.org/wikipedia/ru/thumb/5/5d/TheBigBangTheoryS9.jpg/274px-TheBigBangTheoryS9.jpg",
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/c3de2cd6-633f-42ee-9f80-6591511a2ba8/1920x",
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/ca45c6db-4cc8-4428-84a2-16c3ad3ad304/1920x",
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/00f5b682-07c2-412d-9f66-b76cea0309e3/1920x",
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/e843c1ee-5b52-4124-a009-0daa13d9882b/1920x"
         ],
         Timeline: [
             {
-                Time: "00.00.0000 - 00.00.0000",
-                Text: `Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. 
-              Veniam velit adipisicing anim excepteur nostrud magna nostrud aliqua dolor. Sunt aute est duis ut 
-              nulla officia irure reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem est.`
+                Time: "24.09.2007 - 16.05.2019",
+                Text: "«Теория большого взрыва» началась 24 сентября 2007 года и завершилась 16 мая 2019 года после 12 сезонов. Сериал получил широкое признание и стал одним из самых популярных комедийных шоу в истории телевидения."
             },
             {
-                Time: "00.00.0000 - 00.00.0000",
-                Text: `Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. 
-              Veniam velit adipisicing anim excepteur nostrud magna nostrud aliqua dolor. Sunt aute est duis ut 
-              nulla officia irure reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem est.`
+                Time: "2008 - 2010",
+                Text: "Леонард и Пенни начинают свои отношения, что приводит к множеству комических ситуаций и недопониманий. В это время Шелдон продолжает развивать свои уникальные привычки, что вызывает смех и удивление у зрителей."
+            },
+            {
+                Time: "2013",
+                Text: "Шелдон предложил Ами начать встречаться, открывая новую главу в его жизни и отношениях. Этот поворот событий стал одним из самых запоминающихся моментов в сериале."
+            },
+            {
+                Time: "2017",
+                Text: "Финальный сезон завершил историю героев. Зрители прощались с любимыми персонажами и сериалом, который стал культовым в мире телевидения. Последние эпизоды были насыщены эмоциями, воспоминаниями и неожиданными развитиями сюжета."
             }
-        ],
-    },
+        ]
+    }
 ]
