@@ -1,6 +1,6 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
-import s from "../footer/footer.module.css";
+import s from "./footer.module.css";
 import {Icon} from "@mui/material";
 import {Facebook, Instagram, Mail} from "@mui/icons-material";
 import {Twitter} from "@material-ui/icons";
