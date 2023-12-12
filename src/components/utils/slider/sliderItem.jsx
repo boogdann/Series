@@ -82,9 +82,7 @@ const SliderItem = (props) => {
                             onChange={handleChange}
                         />
                     </form>
-                    <IconButton onClick={handleSubmit} color="primary" aria-label="search">
-                        <SearchIcon />
-                    </IconButton>
+
                 </div>
                 <div className={s.wrapper}>
                     {ItemsArr.length > 0 ?
