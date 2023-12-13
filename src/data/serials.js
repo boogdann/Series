@@ -711,7 +711,7 @@ const allSerials = [
             "zoom": 6
         },
         Video: "pOF2XZeAnVI",
-        Photo: "http://santabarbara-online.com/SBAffiche1.jpg",
+        Photo: "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/2b1a4dce-ed55-43dc-9328-adf2455a02bf/1920x",
         Photos: [
             "https://images11.domashnyochag.ru/upload/img_cache/3ff/3ff9d22672c56ba2ff33414d2374689c_cropped_1332x890.jpg",
             "http://images-s.kinorium.com/movie/shot/79840/w1500_38483198.jpg",
