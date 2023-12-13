@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const GetItemsArr = (props, name, text) => {
-    return props.data.filter((e) => e.Name.includes(name)).map((e) => {
+    return props.data.filter((e) => e.Name.toLowerCase().includes(name)).map((e) => {
         return (
             <div>
                 <p className={s.Name}>{e.Name}</p>
