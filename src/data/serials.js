@@ -802,8 +802,84 @@ const allSerials = [
             "https://fikiwiki.com/uploads/posts/2022-02/1644861782_20-fikiwiki-com-p-simpsoni-krasivie-kartinki-25.png",
             "https://i.ytimg.com/vi/uSmlbgk5ONA/maxresdefault.jpg"
         ],
+    },
+    {
+        id: 9,
+        ru: {
+            Name: "Сверхъестественное",
+            MapInfo: "США",
+            Description: `Финальный аккорд — фэнтези-детектив о братьях Винчестерах. Шутили, 
+                          что «Сверхъестественное» будет длиться бесконечно, но 2020-й смог убить даже неубиваемых.
+                          По количеству мемов о длительности этот многосерийный убийца времени точно побеждает
+                          все другие шоу топа, но по цифрам Винчестеры проигрывают: у сериала всего 15 сезонов за 15 лет и 321 серия.`,
+            Timeline: [
+                {
+                    Time: "",
+                    Text: ""
+                },
+                {
+                    Time: "",
+                    Text: ""
+                },
+                {
+                    Time: "",
+                    Text: ""
+                },
+                {
+                    Time: "",
+                    Text: ""
+                },
+                {
+                    Time: "",
+                    Text: ""
+                }
+            ]
+        },
+        en: {
+            Name: "The Simpsons",
+            MapInfo: "Place of Origin: USA",
+            Description: `The final chord is a fantasy detective story about the Winchester brothers. They were joking, 
+                          that the "Supernatural" would last indefinitely, but 2020 was able to kill even the unkillable.
+                          In terms of the number of memes about the duration, this serial time killer definitely beats
+                          all other top shows, but in terms of numbers, the Hard Drives lose: the series has only 15 seasons in 15 years and 321 episodes.`,
+            Timeline: [
+                {
+                    Time: "",
+                    Text: ""
+                },
+                {
+                    Time: "",
+                    Text: ""
+                },
+                {
+                    Time: "",
+                    Text: ""
+                },
+                {
+                    Time: "",
+                    Text: ""
+                },
+                {
+                    Time: "",
+                    Text: ""
+                }
+            ]
+        },
+        SizonCount: "15",
+        Dates: "13.09.1989 - 19.11.2020",
+        Map: {
+            "center": [38.3586412418132, -77.75796825366668],
+            "zoom": 6
+        },
+        Video: "PG5ST2_zCo4",
+        Photo: "https://www.kino-teatr.ru/movie/posters/big/4/17894.jpg",
+        Photos: [
+            "https://rg.ru/uploads/images/166/92/69/kinopoisk.ru-Supernatural-3188926.jpg",
+            "https://kinotv.ru/upload/delight.webpconverter/upload/setka-editor/151/0eu3x9iopfsiyv0l99at03pbub88he8k.jpg.webp?1655742822899824",
+            "https://img.gazeta.ru/files3/423/13084423/79ca1dba157afc345933b6557c9ea4c6-pic905-895x505-70849.jpg",
+            "https://cdnn21.img.ria.ru/images/07e4/08/12/1575928215_0:26:880:522_600x0_80_0_0_ac7569c874b608b0cbd989176df1f9ce.jpg"
+        ],
     }
-
 
 ]
 
