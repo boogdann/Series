@@ -1,0 +1,35 @@
+{
+  "header": {
+    "text": "Hello World!",
+    "films": "Serials",
+    "developers": "Developers",
+    "home": "Home"
+  },
+  "trailer": {
+    "title": "Trailer"
+  },
+  "serial": {
+    "main_info": "Basic information: ",
+    "period_label": "Release period: ",
+    "sizon_count": "Number of seasons: ",
+    "timeline": "Timeline"
+  },
+  "slider" : {
+    "search": "Search: ",
+    "input_placeholder": "series title",
+    "not_found": "No series with this name were found..."
+  },
+  "films" : {
+    "title": "Top 9 longest series",
+    "content": "Our team of researchers has collected detailed information for you about TV series that stand out for their length. See below...",
+    "btn": "Find out more"
+  },
+  "home" : {
+    "title1": "Where am I?",
+    "title2": "Series of the day",
+    "btn1": "Find out more",
+    "btn2": "Sounds interesting",
+    "date": "Release date: ",
+    "count": "Number of seasons: "
+  }
+}
