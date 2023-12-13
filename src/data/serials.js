@@ -668,31 +668,41 @@ const allSerials = [
             ]
         },
         en: {
-            Name: "",
-            MapInfo: "",
-            Description: `.`,
+            Name: "Santa Barbara",
+            MapInfo: "USA",
+            Description: `"Soap", which has become synonymous with the genre. And it's strange that it was "Santa
+                          Barbara" that grew to such a cultural phenomenon: the project lasted only nine years,
+                          and during that time 2,137 episodes were shot - in "Guiding Light" eight times more.`,
             Timeline: [
                 {
-                    Time: "",
-                    Text: ""
+                    Time: "1984-1985",
+                    Text: "The premiere of the TV series 'Santa Barbara'. In the premiere season (1984-1985), the show took 11th place " +
+                        " with an average of 3.4, " +
+                        " rising one place in the second season from 4.2."
                 },
                 {
-                    Time: "",
-                    Text: ""
+                    Time: "1987-1988",
+                    Text: "By 1987, the show had received the highest rating in its history of 4.9, "+
+                        " still occupying the 10th position. Moreover, the 1987-1988 season was successful in terms of " +
+                        "a daytime show for NBC, which has not boasted such ratings since the 1970s."
                 },
                 {
-                    Time: "",
-                    Text: ""
+                    Time: "1989",
+                    Text: "The ratings of the series dropped significantly in the summer of 1989, " +
+                        " after the first performer of the role of Mason Lane Davis left it."
                 },
                 {
-                    Time: "",
-                    Text: ""
+                    Time: "1990",
+                    Text: "The series won three awards at once: Daytime Emmy Awards, Soap Opera Digest Awards and Casting Society of America in" +
+                        "nominations Best Casting for TV Soaps, Outstanding Achievement in Lighting Direction for a Drama Series, " +
+                        "Outstanding Drama Series"
+
                 },
                 {
-                    Time: "",
-                    Text: ""
+                    Time: "After 1991",
+                    Text: "The series continues to lose ratings, and in January 1993 the studio stopped filming."
                 }
-            ]
+                ]
         },
         SizonCount: "9",
         Dates: "1984-1993",
@@ -700,7 +710,7 @@ const allSerials = [
             "center": [38.3586412418132, -77.75796825366668],
             "zoom": 6
         },
-        Video: "",
+        Video: "pOF2XZeAnVI",
         Photo: "http://santabarbara-online.com/SBAffiche1.jpg",
         Photos: [
             "https://images11.domashnyochag.ru/upload/img_cache/3ff/3ff9d22672c56ba2ff33414d2374689c_cropped_1332x890.jpg",
