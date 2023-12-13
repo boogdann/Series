@@ -815,11 +815,18 @@ const allSerials = [
             Timeline: [
                 {
                     Time: "2005",
-                    Text: "It was first broadcast on September 13, 2005, on The WB," +
-                        " and subsequently became part of successor network The CW's lineup." +
-                        " Starring Jared Padalecki as Sam Winchester and Jensen Ackles as Dean Winchester" +
-                        ", the series follows the two brothers as they hunt demons, ghosts, monsters, " +
-                        "and other supernatural beings."
+                    Text: "Впервые он был показан 13 сентября 2005 года на канале WB" +
+                    "и впоследствии стал частью линейки преемника The CW." +
+                    "В главных ролях играют Джаред Падалеки в роли Сэма Винчестера и Дженсен Эклз в роли Дина Винчестера." +
+                    "Сериал рассказывает о двух братьях, которые охотятся на демонов, призраков, монстров "+
+                    "и других сверхъестественных существ."
+                },
+                {
+                    Time: "2008",
+                    Text: "Победа в номинации \"Лучший сценарий серии фантастического сериала в 2007 году (20-я серия 2-го сезона \"Что есть и чему никогда не бывать\")\""
+                },
+                {   Time: "2018",
+                    Text: "Оба актера родом из Техаса. В связи с этим мэр города Остина (штат Техас) официально провозгласил 23 июня 2018 года Днем \"Сверхъестественного\"."
                 },
             ]
         },
@@ -833,8 +840,19 @@ const allSerials = [
             Timeline: [
                 {
                     Time: "2005",
-                    Text: ""
-                }
+                    Text: "It was first broadcast on September 13, 2005, on The WB," +
+                          " and subsequently became part of successor network The CW's lineup." +
+                          " Starring Jared Padalecki as Sam Winchester and Jensen Ackles as Dean Winchester" +
+                          ", the series follows the two brothers as they hunt demons, ghosts, monsters, " +
+                          "and other supernatural beings."
+                },
+                {
+                    Time: "2008",s
+                    Text: "Won in the nomination \"Best Script for a fantasy series episode in 2007 (20th episode of the 2nd season \"What  is and what will never happen\")\""
+                },
+                {   Time: "2018",
+                    Text: "Both actors are from Texas. In this regard, the mayor of Austin (Texas) officially declared June 23, 2018 as the Day of the \"Supernatural\"."
+                },
             ]
         },
         SizonCount: "15",

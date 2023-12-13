@@ -56,7 +56,11 @@
     font-size: calc(var(--medium) * 0.75);
     margin-left: 20px;
     color: white;
+    transition-duration: .3s;
+}
 
+.menu_btn:hover {
+    color: var(--main-yellow);
 }
 
 
