@@ -245,7 +245,7 @@ const allSerials = [
             zoom: 4,
         },
         Video: "_T-ZCirqTnk",
-       Photo: "https://previews.dropbox.com/p/thumb/ACFrRtVXMGDgVduzJBO1gs_eImf1TMuMvAoPfSieQuf7USttIkprDIGfmrZTOIB-uoHhF1J9YqTvmGZ8rqV5wreBHpf4k2vD1CqVInndYp4V4pWaciLh8Q0vRc1cTt01rEGzHK7mH66_Z7rWkxeQsmn4X1u0cOpTT1QsY5ouqyxL00kiOvg0VKS6AEgWgQEr4pvXRIWXLqCI-FBKQTQTwnzrnUvX7HMysaNe7iPuyOaIAKHBNruUkpnj8nXSRfAbjb_0rDpMTYz_lYub-PW5UISJjqoVbgOi44MSKcKwYMUwz4XLEt_mPg0s7ZmeJmkQsgKGO-iT8Z1KbnlQnuihssQA/p.jpeg",
+        Photo: "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/93990220-3d5c-4255-af3b-7c696e5daafd/300x450",
         Photos: [
             "https://s.zefirka.net/images/2021-11-15/samye-dolgoigrayushhie-serialy-za-vsyu-istoriyu/samye-dolgoigrayushhie-serialy-za-vsyu-istoriyu-3.jpg",
             "https://i.pinimg.com/originals/1a/82/f1/1a82f1e7104267bd192468d68f838bab.jpg",
@@ -533,7 +533,7 @@ const allSerials = [
             zoom: 4
         },
         Video: "iMnVyE5KvHQ",
-        Photo: "https://previews.dropbox.com/p/thumb/ACE-KgvYl1_cUKzYCIhNgLJHMLR9wwWWKPJV-bcugm6juKW0W22nn9gdu-eAu8FeZYtdPUI3w9sahq2hXTGYrQGbcWPOBJZxRBYwFWev7VJFfrMOvIuzUxGdgl3DC20KgCHBLcEPxSQCuWvYQjWNJYkyZZVKC4UNduKDnZe9Bq0-9bVK2-GMVzzoh3KT4ENzv2L31duZCW7VRKpfK-9EllFZ57kWKl2xqbchz3YZqEtuBY-ZEnVt6bqbAG0mfe4kNOTfyNobmEvWAPvsFij6OobXvR_A9hYfjCDkCCPQoscmMhZ6ptzT9uLjhV2f9qNqimv6yL006TKNW7VYixWGvkHL/p.jpeg",
+        Photo: "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/7616decf-71a4-42c7-9d4f-ce96a610a258/300x450",
         Photos: [
             "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/282dee2c-93d6-4398-b860-25296390b080/1920x",
             "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/47a20971-5252-4210-8fd3-060a47ca3cee/1920x",
@@ -620,7 +620,7 @@ const allSerials = [
             "zoom": 6
         },
         Video: "tsT1r2vXXQk",
-        Photo: "https://previews.dropbox.com/p/thumb/ACFz8E1WjA4Em63piW5T-OueLXa2Ux3qGgiJNMlxLPQJjDxDDqlLRkj4PwfSnSQfKQ9VQ0SL1-9audGLlKbxdUG3BH-EqaQ_-ZetvSKbkTISdrHxLuJon6OV6IM5RezhknXBhHTE_ITUZK6w7HJ6hjYK6mdJq1G9EDiGSRjec61rNBqkfHzHDVHOrxltSCYdT8vDga9O4EkhqWW4UbSFb6KJd4Ch8220KnyuZiW6w5bNpbBfnUkseWX9K-Yxh4_llHFja3i9miksBtljV7Gv9DBJC4NPQfmLgNWRK6oLV7IvVnIrkqc8BPnMSy7-skyf9d9EH2VzcDHNWd4gxhw-oLV7/p.jpeg",
+        Photo: "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/080c785c-43c3-4bac-b0f5-50fb695859e6/300x450",
         Photos: [
             "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/c89a0de3-8a21-46dd-85f2-5e0c67660c15/1920x",
             "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/324a811f-6956-4df6-b42a-d318671e26bc/1920x",
@@ -711,7 +711,7 @@ const allSerials = [
             "zoom": 6
         },
         Video: "pOF2XZeAnVI",
-        Photo: "https://previews.dropbox.com/p/thumb/ACFFi0q1_kSOXNCtIKbFSQb4U9lsE03e6BoOQ1EgPWFnYnOiV2mcIwHqstFnkytKPf19SEOuBjB4v-Vnw5UWpJgfSiM1B3R0DgYhpzt0WkUXb9C8pWn_BJ7KnKYo09z1nh4h2sSEpl2WNie5Kl1zt6NHJWanSSdGapAOS3Ag_t1yPbYt7ZgKDdTFLjXge_Ffx0CEggRXpjJPaTKgsOuOxYZTfqGk5KDzH_IRXXbHKU1Yym56-j1Clz-OXOnFw-SNA1sBfYhrfHy2YIpZVl52k90s2295ZgCxoOqGE34T1NCPJRLEuSWXp4R1aKFkCS1B7rJcyVEX4W_E_IGSUn51s4ny/p.jpeg",
+        Photo: "http://santabarbara-online.com/SBAffiche1.jpg",
         Photos: [
             "https://images11.domashnyochag.ru/upload/img_cache/3ff/3ff9d22672c56ba2ff33414d2374689c_cropped_1332x890.jpg",
             "http://images-s.kinorium.com/movie/shot/79840/w1500_38483198.jpg",
@@ -795,7 +795,7 @@ const allSerials = [
             "zoom": 6
         },
         Video: "3R1ebDCv7vM",
-        Photo: "https://previews.dropbox.com/p/thumb/ACHAZ_KNRv9Wng-XI42RscSL8FsfVJKonOVbayoFhw1vMlOECD7cp5SKWm1sv-NewPe_2V4p_pw7_-Ztmhb3uRz9SshBGagfcu75QjdzZRqD5s8Gd19NFiGZHzQro6FSb8Fh8J_YL852YiO5jVkbuB5VRIZs_UMU40n0ioNJQwEb7XuId1deWPVPlnabjJvo2qESkdyfHATu4g2VRd4lFxqhiSWr1a-GtElo6FR3cFGg3Pl4-COXaZiaabxcMqexvzpMssSJ1vTdVBDbVy3RANpJrWToaQTAtreKfA9cgy8-ZLd_e3OWa_Gr09TvI6n7jw7xRxK7DWof9KfMvyGD2gYi/p.jpeg",
+        Photo: "https://upload.wikimedia.org/wikipedia/ru/1/1b/Simpsons.png",
         Photos: [
             "https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_65738e17cdd4553c12d62158_65738e6c43f35b297b65ea1a/scale_1200",
             "http://static.kinoafisha.info/k/series_episodes/1920x1080/upload/series/episodes/343707631426.jpg",
@@ -862,7 +862,7 @@ const allSerials = [
             "zoom": 6
         },
         Video: "PG5ST2_zCo4",
-        Photo: "https://previews.dropbox.com/p/thumb/ACF9WZ3QXzkfD6Ov-_LBj13vsNgf4gbmNo0EpYm_pfu6TVEAOD084Izjvum5W1hwCDficAebA26Dn9SN142wD9Zhz8bCFuESgNXFIP0DYYxbLQs4JdIt8U7DOi5YB2c61_0YSbAAuGqmXDEDWSM7aV4MT7WpmPoNa0kyOa7KQAK4KurkSAZlaKSVwSiM5g5P6pDE4ZjzoEyNuhIxXLLVqiqYrbOggs2DtNCPmvlhty2pZ3NpHsu8BRn1MKzB9ilkPmYlvgmg050TgexZp4U0FX6gPVJfqCt6zmQmTMXLDDb8eFHae8plaT0ZbgXJ1uV4q_k_QEetzRiWs9uKzse78wPs/p.jpeg",
+        Photo: "https://www.kino-teatr.ru/movie/posters/big/4/17894.jpg",
         Photos: [
             "https://rg.ru/uploads/images/166/92/69/kinopoisk.ru-Supernatural-3188926.jpg",
             "https://kinotv.ru/upload/delight.webpconverter/upload/setka-editor/151/0eu3x9iopfsiyv0l99at03pbub88he8k.jpg.webp?1655742822899824",
