@@ -131,7 +131,7 @@ const allSerials = [
             center: [39.8283, -98.5795],
             zoom: 4,
         },
-        Video: "QdBZY2fkU-0",
+        Video: "Wh2ayEUrNgI",
         Photo: "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/99e1053b-7b90-494a-bcb7-7bad0d9e0696/300x450",
         Photos: [
             "https://www.film.ru/sites/default/files/movies/frames/3715525-1356227.jpg",
@@ -626,6 +626,87 @@ const allSerials = [
             "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/324a811f-6956-4df6-b42a-d318671e26bc/1920x",
             "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/8bd60486-c3c0-4b71-aabe-68ba75aaddb1/1920x",
             "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/77ef4b3c-ee6f-444a-be29-655d17ba7b11/1920x"
+        ],
+    },
+    {
+        id: 7,
+        ru: {
+            Name: "Санта-барбара",
+            MapInfo: "США",
+            Description: `«Мыло», которое стало синонимом жанра. И странно, что именно «Санта-
+                        барбара» выросла до такого культурного феномена: проект длился всего девять лет, 
+                        и за это время сняли 2137 эпизодов — в «Путеводном свете» в восемь раз больше.`,
+            Timeline: [
+                {
+                    Time: "1984-1985",
+                    Text: "Премьера сериала 'Санта Барбара'. В премьерный сезон (1984—1985) шоу заняло 11 место " +
+                        "со средним показателем 3,4," +
+                        " поднявшись на одну строчку во втором сезоне с 4,2."
+                },
+                {
+                    Time: "1987-1988",
+                    Text: "К 1987 году шоу получило самый высокий рейтинг за историю своего существования 4,9," +
+                        " всё ещё занимая 10-ю позицию. Причём сезон 1987—1988 года стал успешным по показателям " +
+                        "дневного шоу для канала NBC, который не мог похвастаться такими рейтингами с 1970-х."
+                },
+                {
+                    Time: "1989",
+                    Text: "Рейтинги сериала значительно упали летом 1989 года," +
+                        "после того, как его покинул первый исполнитель роли Мэйсона Лейн Дэвис."
+                },
+                {
+                    Time: "1990",
+                    Text: "Сериал полчил сразу три премии: Daytime Emmy Awards, Soap Opera Digest Awards и Casting Society of America в" +
+                        "номинациях Best Casting for TV Soaps, Outstanding Achievement in Lighting Direction for a Drama Series, " +
+                        "Outstanding Drama Series"
+
+                },
+                {
+                    Time: "После 1991",
+                    Text: "Сериал продолжает терять рейтинги, а в январе 1993 студия прекратила съёмки."
+                }
+            ]
+        },
+        en: {
+            Name: "",
+            MapInfo: "",
+            Description: `.`,
+            Timeline: [
+                {
+                    Time: "",
+                    Text: ""
+                },
+                {
+                    Time: "",
+                    Text: ""
+                },
+                {
+                    Time: "",
+                    Text: ""
+                },
+                {
+                    Time: "",
+                    Text: ""
+                },
+                {
+                    Time: "",
+                    Text: ""
+                }
+            ]
+        },
+        SizonCount: "",
+        Dates: "",
+        Map: {
+            "center": [],
+            "zoom": 6
+        },
+        Video: "",
+        Photo: "",
+        Photos: [
+            "",
+            "",
+            "",
+            ""
         ],
     }
 
