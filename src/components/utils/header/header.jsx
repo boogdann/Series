@@ -45,7 +45,7 @@ function Header(props) {
                                         disabled={i18n.resolvedLanguage === lng}
                                         style={{
                                             color: 'white',
-                                            backgroundColor: i18n.resolvedLanguage === lng ? 'green' : 'transparent',
+                                            backgroundColor: i18n.resolvedLanguage === lng ? 'var(--main-yellow)' : 'transparent',
                                             marginLeft: '5px',
                                             maxWidth: '75px',
                                             fontSize: '12px',

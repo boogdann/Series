@@ -63,7 +63,6 @@
     color: var(--main-yellow);
 }
 
-
 @media (max-width: 600px){
     .burger_button {
         display: block;

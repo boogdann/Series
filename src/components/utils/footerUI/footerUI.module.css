@@ -42,6 +42,11 @@
     color: #D3D3D3;
     margin-left: 15px;
     display: block;
+    transition-duration: .3s;
+}
+
+.Icon:hover {
+  color: var(--main-yellow);
 }
 
 .Contact {
