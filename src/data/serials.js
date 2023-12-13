@@ -814,29 +814,17 @@ const allSerials = [
                           все другие шоу топа, но по цифрам Винчестеры проигрывают: у сериала всего 15 сезонов за 15 лет и 321 серия.`,
             Timeline: [
                 {
-                    Time: "",
-                    Text: ""
+                    Time: "2005",
+                    Text: "It was first broadcast on September 13, 2005, on The WB," +
+                        " and subsequently became part of successor network The CW's lineup." +
+                        " Starring Jared Padalecki as Sam Winchester and Jensen Ackles as Dean Winchester" +
+                        ", the series follows the two brothers as they hunt demons, ghosts, monsters, " +
+                        "and other supernatural beings."
                 },
-                {
-                    Time: "",
-                    Text: ""
-                },
-                {
-                    Time: "",
-                    Text: ""
-                },
-                {
-                    Time: "",
-                    Text: ""
-                },
-                {
-                    Time: "",
-                    Text: ""
-                }
             ]
         },
         en: {
-            Name: "The Simpsons",
+            Name: "Supernatural",
             MapInfo: "Place of Origin: USA",
             Description: `The final chord is a fantasy detective story about the Winchester brothers. They were joking, 
                           that the "Supernatural" would last indefinitely, but 2020 was able to kill even the unkillable.
@@ -844,23 +832,7 @@ const allSerials = [
                           all other top shows, but in terms of numbers, the Hard Drives lose: the series has only 15 seasons in 15 years and 321 episodes.`,
             Timeline: [
                 {
-                    Time: "",
-                    Text: ""
-                },
-                {
-                    Time: "",
-                    Text: ""
-                },
-                {
-                    Time: "",
-                    Text: ""
-                },
-                {
-                    Time: "",
-                    Text: ""
-                },
-                {
-                    Time: "",
+                    Time: "2005",
                     Text: ""
                 }
             ]
