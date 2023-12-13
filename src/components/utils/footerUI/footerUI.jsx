@@ -16,7 +16,7 @@ const Footer = () => {
                              alt="python cucold developers team"/>
                     </a>
                     <div className={s.footer__links}>
-                        <NavLink to = {"https://www.instagram.com/yagorka.js/"} targeti = "_blank" rel = "noopener noreferrer">
+                        <NavLink to = {"https://www.instagram.com/yagorka.js/"} target = "_blank" rel = "noopener noreferrer">
                             <Icon className={s.Icon} >
                                 <Instagram className={s.Contact}/>
                             </Icon>
