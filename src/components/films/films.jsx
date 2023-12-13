@@ -8,8 +8,6 @@ import {GetSerias} from "../../data/serials"
 import { useTranslation } from 'react-i18next';
 
 
-
-
 function Films() {
 
     const { t, i18n } = useTranslation();
