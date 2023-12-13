@@ -3,11 +3,13 @@ import People from "../../controls/People/people";
 import { Grid, Col } from 'react-grid-system';
 
 import s from "./about.module.css";
+import {useTranslation} from "react-i18next";
 
 const About = (props) => {
+    const { t } = useTranslation();
     return (
         <div className={s.about__container}>
-            <h2 className={s.about__title}>Разработчики</h2>
+            <h2 className={s.about__title}>{t('about.title')}</h2>
             <div className={s.about__block}>
                 <div className={s.about__devs}>
                     <People

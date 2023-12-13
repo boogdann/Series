@@ -32,6 +32,9 @@
     "btn2": "Sounds interesting",
     "date": "Release date: ",
     "count": "Number of seasons: "
+  },
+  "about": {
+    "title": "Developers"
   }
 
 }
