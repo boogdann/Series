@@ -718,6 +718,87 @@ const allSerials = [
             "https://storage.yandexcloud.net/stage01-metronews-transfer/media/20220618/13/21/858x540_46243725_u6lwsx93.jpg",
             "https://kino-bar.com/media/images/Santa-Barbara3.original.jpg"
         ],
+    },
+    {
+        id: 8,
+        ru: {
+            Name: "Симпсоны",
+            MapInfo: "США",
+            Description: `Cимпсоны — американский анимационный сериал в жанре ситуационной комедии,
+                          созданный мультипликатором и карикатуристом Мэттом Грейнингом для телекомпании Fox Broadcasting Company.
+                           «Симпсоны» — самый длинный мультсериал в истории американского телевидения, непрерывно выходящий с 1989 года;
+                          в октябре 2023 года началась трансляция 35 сезона сериала.`,
+            Timeline: [
+                {
+                    Time: "1989",
+                    Text: "Симпсоны перекочевали в «собственный» сериал, " +
+                        "транслируемый телекомпанией FOX Network как еженедельное шоу. " +
+                        "Первой показанной серией полной продолжительности была «Simpsons Roasting on an Open Fire»."
+                },
+                {
+                    Time: "1997",
+                    Text: "«Симпсоны» превзошли «Флинстоунов» как самый долгоидущий мультипликационный сериал в Америке." +
+                          " В 2004 году «Симпсоны» оставили позади «Скуби-Ду» по количеству серий."
+                },
+                {
+                    Time: "2005",
+                    Text: "Журнал «Men's Health» признал Гомера Симпсона философом десятилетия."
+                },
+                {
+                    Time: "2010",
+                    Text: "На канале «Fox» был показан 40-минутный фильм «The Simpsons 20th Anniversary Special" +
+                        " – In 3-D! On Ice!», посвящённый истории знаменитого сериала."
+                },
+                {
+                    Time: "2023",
+                    Text: "Мультсериал был продлён до 36 сезона"
+                }
+            ]
+        },
+        en: {
+            Name: "The Simpsons",
+            MapInfo: "Place of Origin: USA",
+            Description: `The Simpsons is an American animated sitcom created by Matt Groening for the Fox Broadcasting Company.
+                          The series is a satirical depiction of American life, epitomized by the Simpson family, which consists
+                          of Homer, Marge, Bart, Lisa, and Maggie. Set in the fictional town of Springfield, it caricatures society,
+                          Western culture, television, and the human condition.`,
+            Timeline: [
+                {
+                    Time: "1960",
+                    Text: ""
+                },
+                {
+                    Time: "1960-1970",
+                    Text: ""
+                },
+                {
+                    Time: "1980-1990",
+                    Text: ""
+                },
+                {
+                    Time: "2000-2010",
+                    Text: ""
+                },
+                {
+                    Time: "After 2010",
+                    Text: ""
+                }
+            ]
+        },
+        SizonCount: "35",
+        Dates: "17.01.1989 - ...",
+        Map: {
+            "center": [38.3586412418132, -77.75796825366668],
+            "zoom": 6
+        },
+        Video: "3R1ebDCv7vM",
+        Photo: "https://upload.wikimedia.org/wikipedia/ru/1/1b/Simpsons.png",
+        Photos: [
+            "https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_65738e17cdd4553c12d62158_65738e6c43f35b297b65ea1a/scale_1200",
+            "http://static.kinoafisha.info/k/series_episodes/1920x1080/upload/series/episodes/343707631426.jpg",
+            "https://fikiwiki.com/uploads/posts/2022-02/1644861782_20-fikiwiki-com-p-simpsoni-krasivie-kartinki-25.png",
+            "https://i.ytimg.com/vi/uSmlbgk5ONA/maxresdefault.jpg"
+        ],
     }
 
 
