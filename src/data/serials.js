@@ -694,19 +694,19 @@ const allSerials = [
                 }
             ]
         },
-        SizonCount: "",
-        Dates: "",
+        SizonCount: "9",
+        Dates: "1984-1993",
         Map: {
-            "center": [],
+            "center": [38.3586412418132, -77.75796825366668],
             "zoom": 6
         },
         Video: "",
-        Photo: "",
+        Photo: "http://santabarbara-online.com/SBAffiche1.jpg",
         Photos: [
-            "",
-            "",
-            "",
-            ""
+            "https://images11.domashnyochag.ru/upload/img_cache/3ff/3ff9d22672c56ba2ff33414d2374689c_cropped_1332x890.jpg",
+            "http://images-s.kinorium.com/movie/shot/79840/w1500_38483198.jpg",
+            "https://storage.yandexcloud.net/stage01-metronews-transfer/media/20220618/13/21/858x540_46243725_u6lwsx93.jpg",
+            "https://kino-bar.com/media/images/Santa-Barbara3.original.jpg"
         ],
     }
 
