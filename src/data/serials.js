@@ -764,24 +764,27 @@ const allSerials = [
                           Western culture, television, and the human condition.`,
             Timeline: [
                 {
-                    Time: "1960",
-                    Text: ""
+                    Time: "1989",
+                    Text: "The Simpsons migrated to its own series " +
+                        "broadcast by the FOX Network as a weekly show " +
+                        "The first full-length episode shown was «Simpsons Roasting on an Open Fire»."
                 },
                 {
-                    Time: "1960-1970",
-                    Text: ""
+                    Time: "1997",
+                    Text: "The simpsons surpassed The Flintstones as the longest-running animated series in America." +
+                        " In 2004, The Simpsons left Scooby-Doo behind in terms of the number of episodes."
                 },
                 {
-                    Time: "1980-1990",
-                    Text: ""
+                    Time: "2005",
+                    Text: "Men's Health magazine recognized Homer Simpson as the philosopher of the decade."
                 },
                 {
-                    Time: "2000-2010",
-                    Text: ""
+                    Time: "2010",
+                    Text: "The 40-minute film 'The Simpsons 20th Anniversary Special– In 3-D was shown on the Fox channel! On Ice!', dedicated to the history of the famous series."
                 },
                 {
-                    Time: "After 2010",
-                    Text: ""
+                    Time: "2023",
+                    Text: "The animated series has been extended to season 36"
                 }
             ]
         },
