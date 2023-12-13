@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Header from '../utils/header/header';
 import s from './films.module.css'
-import Footer from "../utils/footer/footer";
+import Footer from "../utils/footerUI/footerUI";
 import Title from "../home/Title/title";
 import SliderItem from "../utils/slider/sliderItem";
 import {GetSerias} from "../../data/serials"
