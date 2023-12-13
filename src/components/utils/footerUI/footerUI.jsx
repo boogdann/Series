@@ -16,22 +16,22 @@ const Footer = () => {
                              alt="python cucold developers team"/>
                     </a>
                     <div className={s.footer__links}>
-                        <NavLink to = {"https://www.instagram.com/yagorka.js/"}>
+                        <NavLink to = {"https://www.instagram.com/yagorka.js/"} targeti = "_blank" rel = "noopener noreferrer">
                             <Icon className={s.Icon} >
                                 <Instagram className={s.Contact}/>
                             </Icon>
                         </NavLink>
-                        <NavLink to = {"https://vk.com/egorka274"}>
+                        <NavLink to = {"https://vk.com/egorka274"} target = "_blank" rel = "noopener noreferrer">
                             <Icon className={s.Icon}>
                                 <Facebook className={s.Contact} />
                             </Icon>
                         </NavLink>
-                        <NavLink to = {"mailto:tadeush.off@gmail.com"}>
+                        <NavLink to = {"mailto:tadeush.off@gmail.com"} target = "_blank" rel = "noopener noreferrer">
                             <Icon className={s.Icon}>
                                 <Mail className={s.Contact}/>
                             </Icon>
                         </NavLink>
-                        <NavLink to = {"https://www.youtube.com/watch?v=tfn-59fbNMQ&list=PLDyJYA6aTY1lpbNh66kFpF62QpJyzliT2"}>
+                        <NavLink to = {"https://www.youtube.com/watch?v=tfn-59fbNMQ&list=PLDyJYA6aTY1lpbNh66kFpF62QpJyzliT2"} target = "_blank">
                             <Icon className={s.Icon}>
                                 <Twitter className={s.Contact}/>
                             </Icon>
