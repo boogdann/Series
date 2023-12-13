@@ -847,7 +847,7 @@ const allSerials = [
                           "and other supernatural beings."
                 },
                 {
-                    Time: "2008",s
+                    Time: "2008",
                     Text: "Won in the nomination \"Best Script for a fantasy series episode in 2007 (20th episode of the 2nd season \"What  is and what will never happen\")\""
                 },
                 {   Time: "2018",
