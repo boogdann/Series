@@ -5,7 +5,7 @@ import Header from "../utils/header/header";
 import s from "./home.module.css";
 import About from "./About/about";
 import Trailer from "./Trailer/trailer";
-import Footer from "../utils/footer/footer";
+import Footer from "../utils/footerUI/footerUI";
 import {useTranslation} from "react-i18next";
 
 function Home() {

@@ -1,6 +1,6 @@
 import Header from "../utils/header/header";
 import * as React from "react";
-import Footer from "../utils/footer/footer";
+import Footer from "../utils/footerUI/footerUI";
 import Map from "../utils/map/map";
 import {useParams} from "react-router";
 import {useTranslation} from "react-i18next";
@@ -8,7 +8,6 @@ import {GetSerias} from "../../data/serials";
 import Title from "../home/Title/title";
 import s from "./serial.module.css";
 import Trailer from "../home/Trailer/trailer";
-import { GoogleMap, withScriptjs, withGoogleMap, Marker } from 'react-google-maps';
 import {createTheme, ThemeProvider} from "@mui/material/styles";
 import {amber, purple} from "@mui/material/colors";
 import {Carousel} from 'react-responsive-carousel';
@@ -17,8 +16,6 @@ import Button from "@mui/material/Button";
 import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 
 const apiKey = 'YOUR_API_KEY';
-
-const WrappedMap = withScriptjs(withGoogleMap(Map));
 
 const theme = createTheme({
     palette: {
