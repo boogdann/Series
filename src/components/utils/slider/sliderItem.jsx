@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {Carousel} from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import s from './slider.module.css'
@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const GetItemsArr = (props, name, text) => {
-    return props.data.filter((e) => e.Name.toLowerCase().includes(name)).map((e) => {
+    return props.data.filter((e) => e.Name.toLowerCase().includes(name.toLowerCase())).map((e) => {
         return (
             <div>
                 <p className={s.Name}>{e.Name}</p>
@@ -47,6 +47,13 @@ const GetItemsArr = (props, name, text) => {
 }
 
 const SliderItem = (props) => {
+    const [idx, setIdx] = useState(0);
+    const [selectedItem, setSelectedItem] = useState(0);
+
+    useEffect(() => {
+        setSelectedItem(idx);
+    }, [idx]);
+
     const { t, i18n } = useTranslation();
 
     const [name, setName] = useState("");
@@ -64,6 +71,10 @@ const SliderItem = (props) => {
         setName(event.target.value);
     };
 
+    const handleClick = (event) => {
+        setIdx(0);
+        console.log("12131231313")
+    };
 
     const classes = useStyles();
     return (
@@ -82,19 +93,19 @@ const SliderItem = (props) => {
                             }}
                             value={name}
                             onChange={handleChange}
+                            onClick={handleClick}
                         />
                     </form>
 
                 </div>
                 <div className={s.wrapper}>
                     {ItemsArr.length > 0 ?
-                        <Carousel className={s.Slider}>
+                        <Carousel className={s.Slider}
+                        selectedItem={selectedItem}>
                             {ItemsArr}
                         </Carousel>
                         : <p style={{color:"#777"}}>{t('slider.not_found')}</p>
                     }
-
-
                     </div>
             </ThemeProvider>
         </div>
